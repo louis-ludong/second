@@ -1,0 +1,447 @@
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Config.txt
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Lang\Chinses.lng
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Lang\English.lng
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Lang\Portugues.lng
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Lang\Russian.lng
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.exe.config
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.XML
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.exe
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.exe.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\Program.exe.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Models.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Service.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\TeeChart.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Models.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\IGT.Service.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\Program.exe
+C:\Users\Administrator\Desktop\4\3\A8Gas.UI.Client4Net20\obj\Debug\Program.pdb
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.exe.config
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Config.txt
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Lang\Chinses.lng
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Lang\English.lng
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Lang\Portugues.lng
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Lang\Russian.lng
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.XML
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.exe
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.pdb
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.exe.CodeAnalysisLog.xml
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\Program.exe.lastcodeanalysissucceeded
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\Program.exe
+E:\工程\YS48\YS48更改\IGT.UI.Client4Net20\obj\Debug\Program.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Config.txt
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.exe.config
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.XML
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\Program.exe
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\Program.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Config.txt
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Lang\Chinses.lng
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Lang\English.lng
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Lang\Portugues.lng
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Lang\Russian.lng
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.exe
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.exe.CodeAnalysisLog.xml
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\Program.exe.lastcodeanalysissucceeded
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+E:\工程\YS48\YS48-RPMsou\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.exe.config
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.XML
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\Program.exe
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\Program.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Config.txt
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Lang\Chinses.lng
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Lang\English.lng
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Lang\Portugues.lng
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Lang\Russian.lng
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.exe
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.exe.CodeAnalysisLog.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\Program.exe.lastcodeanalysissucceeded
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+E:\工程\YS48\YS48 - 副本删图标\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.exe.config
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.XML
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\Program.exe
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\Program.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Config.txt
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Lang\Chinses.lng
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Lang\English.lng
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Lang\Portugues.lng
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Lang\Russian.lng
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.exe
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.exe.CodeAnalysisLog.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\Program.exe.lastcodeanalysissucceeded
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+E:\工程\YS48\YS48备份201607051（）\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.Cache
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\1Portugues.lng
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\2English.lng
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPset.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\ZEUS.exe.config
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe.CodeAnalysisLog.xml
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe.lastcodeanalysissucceeded
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\Zeus.exe
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\Zeus.pdb
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.OBDSettingPanel.resources
+E:\工程\YS48\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\4Spanish.lng
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Config.txt
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\DefaultSetting.xml
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\OBD_Fault_Code.txt
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\4Spanish.lng
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\2English.lng
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Lang\1Portugues.lng
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe.config
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.xml
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.pdb
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe.CodeAnalysisLog.xml
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\Zeus.exe.lastcodeanalysissucceeded
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\DasNetGauge.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\DasNetTemperature.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\TeeChart.dll
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.pdb
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Models.xml
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.pdb
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\IGT.Service.xml
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.pdb
+D:\源码\YS48\IGT.UI.Client4Net20\bin\Debug\SerialPortsUtils.xml
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csprojAssemblyReference.cache
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPset.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.OBDSettingPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.VistaButton.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.AboutForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.DeviceSearchForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.LaunchForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.MainForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.AutoCalibration.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.CarSetting.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Diagnosis.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.Home.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Pages.RealyTimeData.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.Properties.Resources.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.PWDForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.RealTimeGraphForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.SetPWDForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.TableCellEditDialog.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UpdateECUForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.DiaLine.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorCorrectionForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorSetForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.InjectorsMeasurement.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MainMenuButton.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.MyMenuStrip.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.OBDErrorsForm.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.RealTimeDataLabel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.resources
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.GenerateResource.cache
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\IGT.UI.Client4Net20.csproj.CopyComplete
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\Zeus.exe
+D:\源码\YS48\IGT.UI.Client4Net20\obj\Debug\Zeus.pdb

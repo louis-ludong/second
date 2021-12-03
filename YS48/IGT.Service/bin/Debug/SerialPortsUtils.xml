@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SerialPortsUtils</name>
+    </assembly>
+    <members>
+        <member name="T:SerialPortsUtils.Agents.Agent">
+            <summary>
+            串口IO代理
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.Agent.#ctor(System.IO.Ports.SerialPort)">
+            <summary>
+            实例化
+            </summary>
+            <param name="sp">要代理的串口</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.Agent.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.AgentAsync">
+            <summary>
+            异步串口代理
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Agents.AgentAsync.Action_Send">
+            <summary>
+            预定义动作 发送
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Agents.AgentAsync.Action_Read">
+            <summary>
+            预定义动作 读取
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Agents.AgentAsync.Action_SendAndRead">
+            <summary>
+            预定义动作 发送并读取
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.GetResults">
+            <summary>
+            获取所有还未处理的结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.AddCustomTask(System.String,System.Int32,SerialPortsUtils.Agents.Models.AgentTask)">
+            <summary>
+            添加自定义任务
+            </summary>
+            <param name="identity">标识符</param>
+            <param name="enableBit">占用位</param>
+            <param name="task">任务</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.SendAndRead(System.String,System.Int32,System.Byte[],SerialPortsUtils.Agents.IReadFilter,System.Object)">
+            <summary>
+            创建一个读写报文任务
+            </summary>
+            <param name="identity">标识符</param>
+            <param name="enableBit">占用位</param>
+            <param name="packet">报文</param>
+            <param name="filter">要使用的筛选器</param>
+            <param name="context">要传递的上下文</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.Read(System.String,System.Int32,SerialPortsUtils.Agents.IReadFilter,System.Object)">
+            <summary>
+            创建一个读取报文任务
+            </summary>
+            <param name="identity">标识符</param>
+            <param name="enableBit">占用位</param>
+            <param name="filter">筛选器</param>
+            <param name="context">要传递的上下文</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.Send(System.String,System.Int32,System.Byte[],System.Object)">
+            <summary>
+            创建一个写入报文任务
+            </summary>
+            <param name="identity">标识符</param>
+            <param name="enableBit">占用位</param>
+            <param name="packet">筛选器</param>
+            <param name="context">要传递的上下文</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.SetBitState(System.Int32,System.Boolean)">
+            <summary>
+            设置指定占用位的状态
+            </summary>
+            <param name="bit"></param>
+            <param name="enable"></param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.SetAllBitState(System.Boolean)">
+            <summary>
+            设置所有占用位的状态
+            </summary>
+            <param name="enable"></param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.#ctor(System.IO.Ports.SerialPort,SerialPortsUtils.Agents.AgentAsync.CustomActionExecuteDelegate)">
+            <summary>
+            实例化
+            </summary>
+            <param name="sp">要代理的串口对象</param>
+            <param name="customactionExecute">用于执行非预定义动作(预定动作见Action开头的静态变量)的Action</param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.AgentAsync.WaitDispose">
+            <summary>
+            等待直到资源被释放
+            </summary>
+        </member>
+        <member name="E:SerialPortsUtils.Agents.AgentAsync.ResultGot">
+            <summary>
+            事件 当结果到达
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.AgentAsync.CustomActionExecuteDelegate">
+            <summary>
+            用于执行非预定义动作的委托类型
+            </summary>
+            <param name="context">执行上下文</param>
+            <returns>执行的原始结果</returns>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.IAgent">
+            <summary>
+            表示一个串口IO代理
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.IAgent.ChangePort(System.String)">
+            <summary>
+            改变端口
+            </summary>
+            <param name="portName"></param>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.IAgent.ClosePort">
+            <summary>
+            关闭端口
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.IAgent.OpenPort">
+            <summary>
+            打开端口
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.IAgent.PortIsOpen">
+            <summary>
+            端口是否打开
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.IReadFilter">
+            <summary>
+            筛选器，用于提取需要的报文
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.IReadFilter.Filter(System.Byte[])">
+            <summary>
+            筛选报文
+            </summary>
+            <param name="raw"></param>
+            <returns>是否已筛选出符合要求的数据</returns>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.IReadFilter.GetReadCode">
+            <summary>
+            返回筛选后的最新的报文，如果无则引发异常
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.IReadFilter.Timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.IReadFilterReuses">
+            <summary>
+            可重复使用的IReadFilter
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.ISerialPortWarper">
+            <summary>
+            串口包装器
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Agents.ISerialPortWarper.GetSerialPort">
+            <summary>
+            获取被包装的串口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.Models.AgentTask">
+            <summary>
+            Job4Agent的正文
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.Models.AgentTask.SendPacket">
+            <summary>
+            要发送的报文
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.Models.AgentTask.Action">
+            <summary>
+            要执行的动作
+            预定义值包括
+                 Send 发送
+                 Read 读取
+                 SendAndRead 发送并读取
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.Models.AgentTask.ReadFilter">
+            <summary>
+            用于获取响应报文的Filter
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Agents.Models.AgentTask.Context">
+            <summary>
+            携带的上下文
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Agents.Models.Job4Agent">
+            <summary>
+            用于Agent的Job
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.IJob`1">
+            <summary>
+            Job的必要信息
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.DefaultJob`1">
+            <summary>
+            默认Job
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.DefaultJob`1.EnableBit">
+            <summary>
+            启用位
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.DefaultJob`1.Identity">
+            <summary>
+            标识符
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.DefaultJob`1.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.IJobResult`1">
+            <summary>
+            Job结果
+            </summary>
+            <typeparam name="T">结果类型</typeparam>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.IJobResult`1.Identity">
+            <summary>
+            Job标识符
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.IJobResult`1.Exception">
+            <summary>
+            执行期间的异常
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.IJobResult`1.Successed">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.IJobResult`1.ExecuteResult">
+            <summary>
+            执行结果
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.JobResult`1">
+            <summary>
+            默认Job
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.JobScheduler`2">
+            <summary>
+            Job调度器
+            </summary>
+            <typeparam name="TJob">要调度的Job类型</typeparam>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.ChangeBitState(System.Int32,System.Boolean)">
+            <summary>
+            设置占用位状态
+            </summary>
+            <param name="bit">要设置的位</param>
+            <param name="enable">状态</param>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.ChangeAllBit(System.Boolean)">
+            <summary>
+            设置所有用位状态
+            </summary>
+            <param name="enable">状态</param>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.Stop(System.Int32)">
+            <summary>
+            停止此调度器并等待其状态到达,如果在指定的时间内未到达停止状态，则引发System.TimeoutException
+            </summary>
+            <exception cref="T:System.TimeoutException" >未能在指定时间内完成停止</exception>
+            <exception cref="T:System.InvalidOperationException">Stop在当前状态不可用</exception>
+            <param name="waitTimeout">毫秒 -1时不等待，0时无限等待</param>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.StopWait">
+            <summary>
+            停止此调度器并等待其状态到达
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Stop在当前状态不可用</exception>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.Stop">
+            <summary>
+            停止此调度器
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Stop在当前状态不可用</exception>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.Start">
+            <summary>
+            启动此调度器
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.PreJobLoop">
+            <summary>
+            在job执行线程启动后，job执行循环开始前
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.PostJobLoop">
+            <summary>
+            在job执行循环退出后，job执行线程退出前
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.Schedule.JobScheduler`2.ScheduleState">
+            <summary>
+            调度器状态
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Utils.Schedule.JobScheduler`2.StatusFlag">
+            <summary>
+            0 未运行或已停止；1运行中；2请求停止
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.Schedule.JobScheduler`2.Dispose">
+            <summary>
+            释放调度器
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.Schedule.ScheduleStates">
+            <summary>
+            调度器状态
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Utils.Schedule.ScheduleStates.Stoped">
+            <summary>
+            已停止
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Utils.Schedule.ScheduleStates.Running">
+            <summary>
+            运行中
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Utils.Schedule.ScheduleStates.RequestStop">
+            <summary>
+            正在请求停止
+            </summary>
+        </member>
+        <member name="F:SerialPortsUtils.Utils.Schedule.ScheduleStates.Disposed">
+            <summary>
+            以释放
+            </summary>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.SyncBit32Map">
+            <summary>
+            线程安全的32位bool存储器
+            </summary>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.SyncBit32Map.Item(System.Int32)">
+            <summary>
+            获取指定位的状态
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SerialPortsUtils.Utils.SyncQueue`1">
+            <summary>
+            线程安全的队列
+            </summary>
+            <typeparam name="T">队列元素类型</typeparam>
+        </member>
+        <member name="P:SerialPortsUtils.Utils.SyncQueue`1.Count">
+            <summary>
+            元素数量
+            </summary>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.ToArrayAndClear">
+            <summary>
+            返回此队列对应的数组，并清空队列
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.ToArray">
+            <summary>
+            返回此队列对应的数组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.Clear">
+            <summary>
+            清空队列
+            </summary>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.TryPeek(`0@)">
+            <summary>
+            尝试获取队列开始初的对象，但不移除他
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.TryDequeue(`0@)">
+            <summary>
+            尝试移除并返回队列开始处的对象
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.Enqueue(`0)">
+            <summary>
+            将对象添加到队列末尾
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:SerialPortsUtils.Utils.SyncQueue`1.#ctor">
+            <summary>
+            实例化
+            </summary>
+        </member>
+    </members>
+</doc>

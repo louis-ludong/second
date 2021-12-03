@@ -1,0 +1,2596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IGT.Service</name>
+    </assembly>
+    <members>
+        <member name="T:IGT.Service.Bit32Warper">
+            <summary>
+            32位的bool存储器
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.SetAll(System.Boolean)">
+            <summary>
+            设置所有位
+            </summary>
+            <param name="trueOrFalse">设设定的值</param>
+        </member>
+        <member name="P:IGT.Service.Bit32Warper.Item(System.Int32)">
+            <summary>
+            获取或设置指定位上的bool值
+            </summary>
+            <param name="index">位索引</param>
+            <returns>指定位上的值</returns>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.#ctor">
+            <summary>
+            实例化
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.#ctor(System.Int32)">
+            <summary>
+            实例化
+            </summary>
+            <param name="data">初始值</param>
+        </member>
+        <member name="P:IGT.Service.Bit32Warper.Data">
+            <summary>
+            被包装的值
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.RemoveBitValue(System.Int32,System.Int32)">
+            <summary>
+            将指定位上的值置为0
+            </summary>
+            <param name="value">要设置的位集</param>
+            <param name="index">要设置的位</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.AddBitValue(System.Int32,System.Int32)">
+            <summary>
+            将指定位上的值置为1
+            </summary>
+            <param name="value">要设置的位集</param>
+            <param name="index">要设置的位</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.Bit32Warper.GetBitValue(System.Int32,System.Int32)">
+            <summary>
+            获取指定位上的值
+            </summary>
+            <param name="value">来源位集</param>
+            <param name="index">要获取的位</param>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.CancelBit">
+            <summary>
+            用于取消的占用位常量
+            </summary>
+        </member>
+        <member name="F:IGT.Service.CancelBit.Nomal">
+            <summary>
+            常规
+            </summary>
+        </member>
+        <member name="F:IGT.Service.CancelBit.Storage">
+            <summary>
+            存储相关
+            </summary>
+        </member>
+        <member name="F:IGT.Service.CancelBit.Connection">
+            <summary>
+            连接相关
+            </summary>
+        </member>
+        <member name="T:IGT.Service.NotityArray`1">
+            <summary>
+            可发布变更通知的数组
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:IGT.Service.NotityArray`1.#ctor(`0[],System.Object)">
+            <summary>
+            实例化
+            </summary>
+            <param name="array">原始数组</param>
+            <param name="customSender">发布事件时的事件源</param>
+        </member>
+        <member name="M:IGT.Service.NotityArray`1.#ctor(`0[])">
+            <summary>
+            实例化
+            </summary>
+            <param name="array">原始数组</param>
+        </member>
+        <member name="M:IGT.Service.NotityArray`1.CloneInner">
+            <summary>
+            克隆内部数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.NotityArray`1.AttactNoEvent(`0[])">
+            <summary>
+            修改数组但不触发事件
+            </summary>
+            <param name="array"></param>
+        </member>
+        <member name="P:IGT.Service.NotityArray`1.CustomObject">
+            <summary>
+            自定义源
+            </summary>
+        </member>
+        <member name="E:IGT.Service.NotityArray`1.ItemChangedCustomSender">
+            <summary>
+            事件 数组项变更（带自定义源）
+            </summary>
+        </member>
+        <member name="E:IGT.Service.NotityArray`1.ItemChanged">
+            <summary>
+            事件 数组项变更
+            </summary>
+        </member>
+        <member name="T:IGT.Service.ItemChangedEventArgs">
+            <summary>
+            数据变更 事件参数
+            </summary>
+        </member>
+        <member name="M:IGT.Service.ItemChangedEventArgs.#ctor(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="index">变更项索引</param>
+        </member>
+        <member name="P:IGT.Service.ItemChangedEventArgs.ItemIndex">
+            <summary>
+            变更项索引
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.DiagnosisDetailsTask">
+            <summary>
+            任务-获取诊断信息
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ConnectionFinishReasons">
+            <summary>
+            连接结束原因
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionFinishReasons.Succeed">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionFinishReasons.NoRespose">
+            <summary>
+            无响应
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionFinishReasons.Cancel">
+            <summary>
+            已取消
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionFinishReasons.Bootloader">
+            <summary>
+            ECU等待升级中
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ConnectionState">
+            <summary>
+            连接状态
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionState.NoBegin">
+            <summary>
+            未开始
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionState.InitConnicting">
+            <summary>
+            初始化连接
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ConnectionState.KeepConnction">
+            <summary>
+            保持心跳
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.PasswordStatus">
+            <summary>
+            密码状态
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.PasswordStatus.Unkown">
+            <summary>
+            位置
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.PasswordStatus.Need">
+            <summary>
+            需要
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.PasswordStatus.NotNeed">
+            <summary>
+            不需要
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.RequestPWdEventArgs">
+            <summary>
+            请求密码事件
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ConnictFinishEventArgs">
+            <summary>
+            连接结束事件
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ModelGotEventArg`1">
+            <summary>
+            数据获取事件
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:IGT.Service.PLC.GetAdditionalInfoTask">
+            <summary>
+            任务-获取附加信息
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.OnTimeJob">
+            <summary>
+            定时任务
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTime.OnTimeJob.#ctor(IGT.Service.PLC.Device)">
+            <summary>
+            实例化 定时任务
+            </summary>
+            <param name="plc">要关联的设备</param>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTime.OnTimeJob.Excetue">
+            <summary>
+            执行定时任务
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.OnTime.OnTimeJob.Enable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.RealyDataJob">
+            <summary>
+            实时数据任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.AutoCalibationJob">
+            <summary>
+            自动标定任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.DiagnosisDetailsJob">
+            <summary>
+            诊断信息任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.ODBStateJob">
+            <summary>
+            OBD状态任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.AdditionalInfoJob">
+            <summary>
+            附加信息任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.Curve2DJob">
+            <summary>
+            2D曲线任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTime.Curve3DJob">
+            <summary>
+            3D曲线任务
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTimeTasks">
+            <summary>
+            定时任务枚举
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.OnTimeSchudle">
+            <summary>
+            定时任务调度器
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.#ctor(IGT.Service.PLC.Device)">
+            <summary>
+            实例化 定时任务调度器
+            </summary>
+            <param name="plc">要关联的设备</param>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.Start">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.Stop">
+            <summary>
+            停止运行
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.BeginTask(IGT.Service.PLC.OnTimeTasks)">
+            <summary>
+            开始指定任务
+            </summary>
+            <param name="task">要开始的任务</param>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.EndTask(IGT.Service.PLC.OnTimeTasks)">
+            <summary>
+            结束指定任务
+            </summary>
+            <param name="task">要结束的任务</param>
+        </member>
+        <member name="M:IGT.Service.PLC.OnTimeSchudle.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.UpData">
+            <summary>
+            下位机升级数据
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.UpData.FromFile(System.String,IGT.Service.PLC.UpData@)">
+            <summary>
+            从文件获取升级数据
+            </summary>
+            <param name="file">文件</param>
+            <param name="data">获取到的升级数据</param>
+            <returns>是否获取到了升级数据</returns>
+        </member>
+        <member name="P:IGT.Service.PLC.UpData.Right">
+            <summary>
+            升级数据是否正确
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.UpData.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.UpData.ROMVer">
+            <summary>
+            ROM版本
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ICustomTask">
+            <summary>
+            表示一个与下位机通信的自定义任务
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.ICustomTask.Execute(SerialPortsUtils.Agents.Models.CustomActionContext)">
+            <summary>
+            执行此自定义任务
+            </summary>
+            <param name="context">上下文</param>
+            <returns>下位机返回的原始数据</returns>
+        </member>
+        <member name="T:IGT.Service.PLC.ICustomTask`1">
+            <summary>
+            表示一个与下位机通信的自定义任务
+            </summary>
+            <typeparam name="T">任务返回值的类型</typeparam>
+        </member>
+        <member name="M:IGT.Service.PLC.ICustomTask`1.GetResult">
+            <summary>
+            获取任务返回值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.PLC.CanWaitCustom`1">
+            <summary>
+            表示一个与下位机通信的可等待的自定义任务
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.#ctor(IGT.Service.PLC.Device)">
+            <summary>
+            创建任务对象
+            </summary>
+            <param name="device">关联的设备</param>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.WaitResult(System.Int32)">
+            <summary>
+            等待返回结果
+            </summary>
+            <param name="timeout">等待超时毫秒数 默认-1不超时</param>
+            <returns>任务返回值</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.ResultGotHandler(SerialPortsUtils.Agents.Models.AgentTaskResult)">
+            <summary>
+            处理任务返回
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.ExecuteInner(SerialPortsUtils.Agents.Models.CustomActionContext)">
+            <summary>
+            任务实际执行方法
+            </summary>
+            <param name="context">上下文</param>
+            <returns>下位机返回的原始数据</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.Execute(SerialPortsUtils.Agents.Models.CustomActionContext)">
+            <summary>
+            执行此自定义任务
+            欲定义任务执行方法，请重写 ExecuteInner
+            </summary>
+            <param name="context">上下文</param>
+            <returns>下位机返回的原始数据</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.CanWaitCustom`1.GetResult">
+            <summary>
+            获取任务返回值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.PLC.PacketUtils">
+            <summary>
+            报文工具类
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.PacketData(System.Collections.Generic.IEnumerable{System.Byte},System.Int32)">
+            <summary>
+            获取报文正文
+            </summary>
+            <param name="packet">报文</param>
+            <param name="cmdLenght">命令长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.BuildSend(System.Byte,System.Byte[])">
+            <summary>
+            构造发送到下位机的报文
+            </summary>
+            <param name="cmd">命令</param>
+            <param name="data">正文</param>
+            <returns>报文</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.BuildSend(System.Byte,System.Byte,System.Byte[])">
+            <summary>
+            构造发送到下位机的报文
+            </summary>
+            <param name="cmdPart1">命令</param>
+            <param name="cmdPart2">子命令</param>
+            <param name="data">正文</param>
+            <returns>报文</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.BuildRaw(System.Byte,System.Byte,System.Byte[])">
+            <summary>
+            构造报文
+            </summary>
+            <param name="head">报文头</param>
+            <param name="cmd">命令</param>
+            <param name="data">正文</param>
+            <returns>报文</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.BuildRaw(System.Byte,System.Byte,System.Byte,System.Byte[])">
+            <summary>
+            构造报文
+            </summary>
+            <param name="head">报文头</param>
+            <param name="cmdPart1">命令</param>
+            <param name="cmdPart2">子命令</param>
+            <param name="data">正文</param>
+            <returns>报文</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.CalcCheckBitNew(System.Byte[])">
+            <summary>
+            为新构造的报文计算校验位
+            </summary>
+            <param name="packet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.PacketUtils.ValidateAsRecived(System.Byte[])">
+            <summary>
+            验证一个下位机发送的报文
+            </summary>
+            <param name="packet"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.PLC.ReadFilter">
+            <summary>
+            下位机报文筛选器
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.ReadFilter.Timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.ReadFilter.#ctor(System.Byte)">
+            <summary>
+            实例化下位机报文筛选器
+            </summary>
+            <param name="cmd">要筛选报文的命令</param>
+        </member>
+        <member name="M:IGT.Service.PLC.ReadFilter.#ctor(System.Byte,System.Byte)">
+            <summary>
+            实例化下位机报文筛选器
+            </summary>
+            <param name="cmd1">要筛选报文的命令</param>
+            <param name="cmd2">要筛选报文的子命令</param>
+        </member>
+        <member name="M:IGT.Service.PLC.ReadFilter.Filter(System.Byte[])">
+            <summary>
+            从原始数据筛选报文
+            </summary>
+            <param name="raw">原始数据</param>
+            <returns>是否继续（即是否未得到报文）</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ReadFilter.GetReadCode">
+            <summary>
+            返回筛选后的数据，如果未筛选出符合的数据则引发异常
+            </summary>
+            <exception cref="T:System.InvalidOperationException">读取尚未结束</exception>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.PLC.BootloaderReadFilter">
+            <summary>
+            用于Bootloader的报文筛选器
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.DTOUitils">
+            <summary>
+            DTO工具类
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToAdaptiveState(System.Byte[])">
+            <summary>
+            从报文提取 自适应状态
+            </summary>
+            <param name="packet">报文</param>
+            <returns>自适应状态</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToODBState(System.Byte[])">
+            <summary>
+            从报文提取 OBD状态 
+            </summary>
+            <param name="packet">报文</param>
+            <returns>OBD状态</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.TOECUSetting(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            从报文提取 ECU设定参数
+            </summary>
+            <param name="packet">报文</param>
+            <param name="extraPacket">额外的报文</param>
+            <returns>ECU设定参数</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToHandSharkResult(System.Byte[])">
+            <summary>
+            从报文提取 握手结果
+            </summary>
+            <param name="packet">报文</param>
+            <returns>握手结果</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToSerialNumberResult(System.Byte[])">
+            <summary>
+            获取序列号
+            </summary>
+            <param name="packet">报文</param>
+            <returns>获取序列号</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToPasswordNeed(System.Byte[])">
+            <summary>
+            从报文提取 是否设置了密码
+            </summary>
+            <param name="packet">报文</param>
+            <returns>是否设置了密码</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToHardwareInfo(System.Byte[])">
+            <summary>
+            从报文提取 硬件信息
+            </summary>
+            <param name="packet">报文</param>
+            <returns>硬件信息</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToFireWareInfo(System.Byte[])">
+            <summary>
+            从报文提取 固件信息
+            </summary>
+            <param name="packet">报文</param>
+            <returns>固件信息</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToRealyTimeData(System.Byte[])">
+            <summary>
+            从报文提取 实时数据
+            </summary>
+            <param name="packet">报文</param>
+            <returns>实时数据</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToAutoCalibrationDetails(System.Byte[])">
+            <summary>
+            从报文提取 自动标定信息
+            </summary>
+            <param name="packet">报文</param>
+            <returns>自动标定信息</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToInjectorCorrectionSetting(System.Byte[])">
+            <summary>
+            从报文提取 喷轨修正参数
+            </summary>
+            <param name="packet">报文</param>
+            <returns>喷轨修正参数</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.DTOUitils.ToOBDError(System.Byte[])">
+            <summary>
+            从报文提取 OBD故障
+            </summary>
+            <param name="packet">报文</param>
+            <returns>OBD故障</returns>
+        </member>
+        <member name="T:IGT.Service.PLC.InstructionSet">
+            <summary>
+            IGT指令集
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.DeviceCode">
+            <summary>
+            设备识别码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SendHead">
+            <summary>
+            发送头
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.RecivedHead">
+            <summary>
+            接收头
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.HandShake">
+            <summary>
+            握手
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.CopyRightInfo">
+            <summary>
+            软件版本
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.FireWareInfo">
+            <summary>
+            固件信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.HardInfo">
+            <summary>
+            硬件版本
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ReleaseDate">
+            <summary>
+            发布日期
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.PasswordIsSet">
+            <summary>
+            是否设置过密码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SerialNumber">
+            <summary>
+            产品序列号
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.FirstUsingTime">
+            <summary>
+            首次使用时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.RealyData">
+            <summary>
+            ECU实时状态数据
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetInjectTimePart1">
+            <summary>
+            ECU喷油、喷气时间 Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetInjectTimePart2_Bank1">
+            <summary>
+            ECU喷油、喷气时间 Part2 返回Bank1喷油、喷气时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetInjectTimePart2_Bank2">
+            <summary>
+            ECU喷油、喷气时间 Part2 返回Bank2喷油、喷气时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetSelfAdaptationOR_ODBState">
+            <summary>
+            返回自适应（OBD）状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetECUErrorState">
+            <summary>
+            返回ECU错误状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetInjectOnOff">
+            <summary>
+            返回喷轨测试状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetAutoCalibrationState">
+            <summary>
+            返回自动标定状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetECUTime">
+            <summary>
+            ECU工作时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetOBDErrorsPart1">
+            <summary>
+            返回OBD故障码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetOBDErrorsPart2_Error">
+            <summary>
+            返回故障码数量
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetOBDErrorsPart2_Potential">
+            <summary>
+            返回潜在故障
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetEmergencyStartInfo">
+            <summary>
+            返回紧急燃气启动信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetMaintainInfo">
+            <summary>
+            返回燃气保养信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetECUSetting">
+            <summary>
+            返回ECU设定参数数据
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetO2Setting">
+            <summary>
+            返回氧传感器设定参数数据
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetAnticipateInjSetting">
+            <summary>
+            喷射顺序提前
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.RedTempCorrectionSettings">
+            <summary>
+            减压器温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GasTempCorrectionSettings">
+            <summary>
+            燃气温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GasPressCorrectionSettings">
+            <summary>
+            燃气压力修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GasPressCorrectionValue">
+            <summary>
+            燃气压力修正子命令 0x00：返回 30 字节，表示 1~15 格压力从小到大；单位 0.001bar； 
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GasPressCorrectionPer">
+            <summary>
+            燃气压力修正子命令 0x10：返回 30 字节，表示 1~15 格修正百分比从小到大；单位 0.01%； 
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetECUSettingExtra">
+            <summary>
+            返回ECU设定拓展参数数据
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.InjectorCorrectionSetting">
+            <summary>
+            喷轨参数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ECUCorrectionSettingPart1">
+            <summary>
+            ECU修正比例参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ECUCorrectionSettingPart2_CorrectionValue">
+            <summary>
+            ECU修正比例参数Part2 修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ECUCorrectionSettingPart2_Ponits">
+            <summary>
+            ECU修正比例参数Part2 10个坐标点的x轴位置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart1">
+            <summary>
+            Map标定参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_12RPMs">
+            <summary>
+            Map标定参数Part2 12格RPM的值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_12Tinj">
+            <summary>
+            Map标定参数Part2 12格喷油时间的值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_MAPValue">
+            <summary>
+            Map标定参数Part2 RPM与喷油时间映射的百分比值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_PetrolCurve">
+            <summary>
+            Map标定参数Part2 汽油喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_2DPetrolCurve">
+            <summary>
+            Map标定参数Part2 2D汽油喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_GasCurve">
+            <summary>
+            Map标定参数Part2 气体喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_2DGasCurve">
+            <summary>
+            Map标定参数Part2 2D气体喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.MAPCalibrationParamsPart2_DataLockStatus">
+            <summary>
+            MAP标定数据锁定状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUErrorCodeClear">
+            <summary>
+            清除ECU错误代码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetInjectOnOff">
+            <summary>
+            设置喷轨测试命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetAutoCalibrationCMD">
+            <summary>
+            设置自动标定命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetODBErrorClear">
+            <summary>
+            OBD故障码清除命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetODBErrorClear_Const">
+            <summary>
+            OBD故障码清除命令值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetEmergencyStats">
+            <summary>
+            设置紧急燃气启动设置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMaintainRemind">
+            <summary>
+            设置燃气保养提醒设置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingO2">
+            <summary>
+            设置氧传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetAnticipateInjSetting">
+            <summary>
+            喷射顺序提前
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart1">
+            <summary>
+            设置ECU设定参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetFlag">
+            <summary>
+            设置ECU设定参数Part2 子命令 0x00（标志功能位） ：4 字节
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetCylinders">
+            <summary>
+            设置ECU设定参数Part2 设置气缸数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetFuelType">
+            <summary>
+            设置ECU设定参数Part2 设置燃料类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetInjectionMode">
+            <summary>
+            设置ECU设定参数Part2 设置喷射模式
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetCoilNums">
+            <summary>
+            设置ECU设定参数Part2 设置线圈数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetExtraInjectionMode">
+            <summary>
+            设置ECU设定参数Part2 设置辅助喷射模式
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetExtraInjectionIdentTime">
+            <summary>
+            设置ECU设定参数Part2 设置喷射起始时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetRPMSource">
+            <summary>
+            设置ECU设定参数Part2 设置转速信号源
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetRPMVoltage">
+            <summary>
+            设置ECU设定参数Part2 转速信号门限电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetSwitchTemp">
+            <summary>
+            设置ECU设定参数Part2 设置切换温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetSwitchRPM">
+            <summary>
+            设置ECU设定参数Part2 设置切换转速
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetSwitchMode">
+            <summary>
+            设置ECU设定参数Part2 设置切换方式
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetOverlapTimes">
+            <summary>
+            设置ECU设定参数Part2 设置切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetOrderDelay">
+            <summary>
+            设置ECU设定参数Part2 设置顺序切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetReducerTempSens">
+            <summary>
+            设置ECU设定参数Part2 设置减压器温度传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetGasTempSens">
+            <summary>
+            设置ECU设定参数Part2 设置燃气温度传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetOperationalPress">
+            <summary>
+            设置ECU设定参数Part2 设置燃气工作压力
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetMinimumPress">
+            <summary>
+            设置ECU设定参数Part2 设置最小工作压力
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetPressErrorTime">
+            <summary>
+            设置ECU设定参数Part2 设置压力故障时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetMiniGasTemp">
+            <summary>
+            设置ECU设定参数Part2 设置燃气最低温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetInjectorType">
+            <summary>
+            设置ECU设定参数Part2 设置喷轨类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetLevelIndicatorSens">
+            <summary>
+            设置ECU设定参数Part2 设置液位传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetGasLevel">
+            <summary>
+            设置ECU设定参数Part2 设置液位传感器电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingPart2_SetBackTransitionTm">
+            <summary>
+            设置ECU设定参数Part2 设置喷油切断过渡时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart1">
+            <summary>
+            设置ECU设定拓展参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_SetFlag">
+            <summary>
+            设置ECU设定拓展参数Part2 子命令 0x00（标志功能位） ：5 字节
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_InjectorPositiveDriver">
+            <summary>
+            设置ECU设定拓展参数Part2 喷嘴正极驱动
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_EngineType">
+            <summary>
+            设置ECU设定拓展参数Part2 发动机类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_HotStart">
+            <summary>
+            设置ECU设定拓展参数Part2 发动机热启动
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Weak">
+            <summary>
+            设置ECU设定拓展参数Part2 马自达减弱
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_SpeedThicken">
+            <summary>
+            设置ECU设定拓展参数Part2 加速加浓
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_SetExtrainjSensitivity">
+            <summary>
+            子命令 0x05（额外喷射敏感度） ：双字节；
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_SetExtraInjectionIdentTime">
+            <summary>
+            子命令 0x06（额外喷射起始时间） ：双字节；
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_SetMinGasRPM">
+            <summary>
+            设置ECU设定参数Part2 设置最低燃气转速
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_RunningGasStrategy">
+            <summary>
+            设置ECU设定拓展参数Part2 燃气高速运行时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_RunningRPM">
+            <summary>
+            设置ECU设定拓展参数Part2 燃气高速运行转速条件(高)
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_RunningMinRPM">
+            <summary>
+            设置ECU设定拓展参数Part2 燃气高速运行转速条件（低）
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_RunningTijiTime">
+            <summary>
+            设置ECU设定拓展参数Part2 燃气高速运行喷油时间条件
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_RunningOilCompensation">
+            <summary>
+            设置ECU设定拓展参数Part2 燃气高速运行喷油补偿
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda1Type">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器1类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda2Type">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器2类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda1HV">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器1高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda1LV">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器1低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda2HV">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器2高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_Lambda2LV">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器2低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_LambdaDelay">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器仿真延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_LambdaInjectNum">
+            <summary>
+            设置ECU设定拓展参数Part2 氧传感器喷射学习数量
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_AutoDiagnosis">
+            <summary>
+            设置ECU设定拓展参数Part2 自动诊断
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_AutoAdaptive">
+            <summary>
+            设置ECU设定拓展参数Part2 自动自适应（OBD自适应）
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_AdaptiveRange">
+            <summary>
+            设置ECU设定拓展参数Part2 自适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_AutoStopAdaptive">
+            <summary>
+            设置ECU设定拓展参数Part2 自适应自动停止
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_AdaptiveAssist">
+            <summary>
+            设置ECU设定拓展参数Part2 自适应协助
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_ODBReverseAssist">
+            <summary>
+            设置ECU设定拓展参数Part2 ODB反向修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_ODBAdaptRange">
+            <summary>
+            设置ECU设定拓展参数Part2 ODB适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_ODBBank1Correct">
+            <summary>
+            设置ECU设定拓展参数Part2 Bank1矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_ODBBank2Correct">
+            <summary>
+            设置ECU设定拓展参数Part2 Bank2矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_ODBErrorAutoClear">
+            <summary>
+            设置ECU设定拓展参数Part2 ODB故障码自动消除
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetRedTempCorrectionPart1">
+            <summary>
+            设置减压器温度修正Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetRedTempCorrectionPart2_Temp">
+            <summary>
+            设置减压器温度修正Part2 设置温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetRedTempCorrectionPart2_Correction">
+            <summary>
+            设置减压器温度修正Part2 设置修正百分比
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetGasTempCorrectionPart1">
+            <summary>
+            设置燃气温度修正Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetGasTempCorrectionPart2_Temp">
+            <summary>
+            设置燃气温度修正Part2 设置温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetGasTempCorrectionPart2_Correction">
+            <summary>
+            设置燃气温度修正Part2 设置修正百分比
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetInjectorCorrectionSetting">
+            <summary>
+            设定喷轨参数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUCorrectionParamsPart1">
+            <summary>
+            设置ECU修正比例参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUCorrectionParamsPart2_Correction">
+            <summary>
+            设置ECU修正比例参数Part2 修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUCorrectionParamsPart2_Points">
+            <summary>
+            设置ECU修正比例参数Part2 10个坐标点的x轴位置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart1">
+            <summary>
+            设置MAP标定参数Part1
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_12RPMs">
+            <summary>
+            设置Map标定参数Part2 12格RPM的值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_12Tinj">
+            <summary>
+            设置Map标定参数Part2 12格喷油时间的值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_MAPValue">
+            <summary>
+            设置Map标定参数Part2 RPM与喷油时间映射的百分比值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_PetrolCurve">
+            <summary>
+            设置Map标定参数Part2 汽油喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_GasCurve">
+            <summary>
+            设置Map标定参数Part2 气体喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_ClearPetrolCurve">
+            <summary>
+            设置Map标定参数Part2 清除汽油曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetMAPCalibrationParamsPart2_ClearGasCurve">
+            <summary>
+            设置Map标定参数Part2 清除燃气曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetOBDSetting">
+            <summary>
+            OBD设置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.GetOBDSetting">
+            <summary>
+            读取OBD设置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUReset">
+            <summary>
+            ECU参数复位
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetKeySwitch">
+            <summary>
+            按键切换命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSave">
+            <summary>
+            设置ECU保存命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.InputPassword">
+            <summary>
+            输入密码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetPasssword">
+            <summary>
+            设置密码
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SerialNumberWrite">
+            <summary>
+            产品序列号写入命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ReleaseDateWrite">
+            <summary>
+            产品日期写入命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.ECURestart">
+            <summary>
+            ECU Restart命令
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.InstructionSet.SetECUSettingExtraPart2_GasFillTime">
+            <summary>
+            预充气时间命令
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.Device">
+            <summary>
+            表示一个下位机设备
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.Device.PortName">
+            <summary>
+            端口名
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.ChangeTaskState(System.Boolean)">
+            <summary>
+            改变自定义任务状态
+            </summary>
+            <param name="enableOrCancel">启用或取消</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.ChangeTaskState(System.Int32,System.Boolean)">
+            <summary>
+            改变指定的自定义任务状态，根据任务映射的Bit值选择
+            </summary>
+            <param name="bit"></param>
+            <param name="enableOrCancel">启用或取消</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.BeginOnTimeTask(IGT.Service.PLC.OnTimeTasks)">
+            <summary>
+            开始一个定时任务
+            </summary>
+            <param name="task">要开始的任务</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.EndOnTimeTask(IGT.Service.PLC.OnTimeTasks)">
+            <summary>
+            结束一个定时任务
+            </summary>
+            <param name="task">要结束的任务</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.ResetPLC(System.String)">
+            <summary>
+            重置下位机
+            </summary>
+            <param name="identity">用于此次通讯的标识符</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.SendAndRead(System.String,System.Int32,System.Byte,System.Byte,System.Byte[],System.Object)">
+            <summary>
+            发送数据到下位机并读取返回值
+            </summary>
+            <param name="identity">用于此次通讯的标识符</param>
+            <param name="cancelBit">用于取消的Bit值</param>
+            <param name="cmd1">命令</param>
+            <param name="cmd2">子命令</param>
+            <param name="data">要发送到下位机的数据</param>
+            <param name="context">在执行过程中携带的对象</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.SendAndRead(System.String,System.Int32,System.Byte,System.Byte[],System.Object)">
+            <summary>
+            发送数据到下位机并读取返回值
+            </summary>
+            <param name="identity">用于此次通讯的标识符</param>
+            <param name="cancelBit">用于取消的Bit值</param>
+            <param name="cmd">命令</param>
+            <param name="data">要发送到下位机的数据</param>
+            <param name="context">在执行过程中携带的对象</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetAdditionalInfo">
+            <summary>
+            启动一个任务，用于获取附件信息
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetDiagnosisDetails">
+            <summary>
+            启动一个任务，用于获取诊断信息
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetSelfAdaptationOR_OBDState">
+            <summary>
+            启动一个任务，用于获取OBD状态或自适应状态
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetRealyTimeData">
+            <summary>
+            启动一个任务，用于获取实时数据
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetAutoCalibrationDetails">
+            <summary>
+            启动一个任务，用于获取标定信息
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.SetUsingData">
+            <summary>
+            启动一个任务，用于设置使用数据
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetTiji2DCurve">
+            <summary>
+            启动一个任务，用于获取2D喷射曲线
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.GetTiji3DCurve">
+            <summary>
+            启动一个任务，用于设置3d喷射曲线
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.AddCustomTask(System.String,System.Int32,IGT.Service.PLC.ICustomTask)">
+            <summary>
+            添加一个自定任务
+            </summary>
+            <param name="identity">标识符</param>
+            <param name="cancelBit">取消位</param>
+            <param name="task">要添加的自定义任务</param>
+        </member>
+        <member name="P:IGT.Service.PLC.Device.DeviceInfo">
+            <summary>
+            设备信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.Device.Connect">
+            <summary>
+            连接对象
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Dispose">
+            <summary>
+            释放设备
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.Device.Connection">
+            <summary>
+            连接对象
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Connection.Stop">
+            <summary>
+            停止连接
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Connection.InitConnecting(System.String)">
+            <summary>
+            初始化连接
+            </summary>
+            <param name="portName">端口名称</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Connection.SendPassword(System.String)">
+            <summary>
+            发送密码到下位机
+            </summary>
+            <param name="pwd"></param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Connection.#ctor(IGT.Service.PLC.Device)">
+            <summary>
+            构造器
+            </summary>
+            <param name="plc">关联的设备对象</param>
+        </member>
+        <member name="M:IGT.Service.PLC.Device.Connection.HandShark(System.String)">
+            <summary>
+            握手
+            </summary>
+            <param name="portName">端口名称</param>
+            <returns>串口能否打开</returns>
+        </member>
+        <member name="T:IGT.Service.PLC.ECUUpdateTask">
+            <summary>
+            ECU升级任务
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.ECUUpdateTask.Step">
+            <summary>
+            当前步骤
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.ECUUpdateTask.ClearFLASH(System.IO.Ports.SerialPort)">
+            <summary>
+            擦除FLASH
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.ECUUpdateTask.ClearEEPROM(System.IO.Ports.SerialPort)">
+            <summary>
+            //擦除EEPROM
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.ECUUpdateTask.WriteCount">
+            <summary>
+            写入计数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.PLC.ECUUpdateTask.Succesed">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="T:IGT.Service.PLC.ECUUpdateTask.Steps">
+            <summary>
+            ECU升级步骤
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ECUUpdateTask.Steps.Bootloader">
+            <summary>
+            Bootloader
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ECUUpdateTask.Steps.ClearEEPROM">
+            <summary>
+            擦出ROM
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ECUUpdateTask.Steps.ClearFLASH">
+            <summary>
+            擦除FLASH
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ECUUpdateTask.Steps.WriteData">
+            <summary>
+            写入数据
+            </summary>
+        </member>
+        <member name="F:IGT.Service.PLC.ECUUpdateTask.Steps.Finish">
+            <summary>
+            结束
+            </summary>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.ConvertToByteSafe(System.SByte)">
+            <summary>
+            转换为byte，但不做溢出检查
+            </summary>
+            <param name="value">要转换的值</param>
+            <returns>转换后的值</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.ConvetToSbyteSafe(System.Byte)">
+            <summary>
+            转换为sbyte，但不做溢出检查
+            </summary>
+            <param name="value">要转换的值</param>
+            <returns>转换后的值</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.SingleVoltageFrom(System.Byte)">
+            <summary>
+            将电压格式从byte转换到float
+            </summary>
+            <param name="value">电压</param>
+            <returns>转换后的电压</returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.SingleVoltageValue(System.Single)">
+            <summary>
+            将电压格式从float转换到byte
+            </summary>
+            <param name="value">电压</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.TwoBitTimeByusFrom(System.Byte,System.Byte)">
+            <summary>
+            转换双字节数据为2.56us为单位的时间
+            </summary>
+            <param name="lowBit"></param>
+            <param name="hightBit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.TwoBitTimeByusValue(System.Single)">
+            <summary>
+            转换以us为单位时间为双字节数据
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.TempSensFrom(System.Byte)">
+            <summary>
+            温度传感器转换
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.GasTempSensValue(IGT.Models.Enums.TempSensTypes)">
+            <summary>
+            温度传感器转换
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.TwoBitKVFrom(System.Byte[])">
+            <summary>
+            双字节电压转换
+            </summary>
+            <param name="values">高位 低位...高位 低位...</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.TwoBitKVValue(System.Single[])">
+            <summary>
+            双字节电压转换
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.SingleTempFrom(System.Byte)">
+            <summary>
+            单字节温度转换
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.PLC.ValueConvert.SingleTempValue(System.SByte)">
+            <summary>
+            单字节温度转换
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.SSer">
+            <summary>
+            服务类
+            </summary>
+        </member>
+        <member name="P:IGT.Service.SSer.Device">
+            <summary>
+            下位机设备
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.AdditionalSettings">
+            <summary>
+            附加设定
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.AdditionalSettings.#ctor(IGT.Models.Settings.AdditionalSettings)">
+            <summary>
+            实例化 附加设定
+            </summary>
+            <param name="model">附加设定</param>
+        </member>
+        <member name="M:IGT.Service.Storage.AdditionalSettings.Detaching">
+            <summary>
+            分离 附加设定
+            </summary>
+            <returns>附加设定</returns>
+        </member>
+        <member name="M:IGT.Service.Storage.AdditionalSettings.Attach(IGT.Models.Settings.AdditionalSettings)">
+            <summary>
+            附加 附加设定
+            </summary>
+            <param name="model">附加设定</param>
+        </member>
+        <member name="P:IGT.Service.Storage.AdditionalSettings.EmergencyStartAllowed">
+            <summary>
+            是否允许紧急启动
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.AdditionalSettings.EmergencyStatsPerformed">
+            <summary>
+            可紧急启动次数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.AdditionalSettings.MaintainRemind">
+            <summary>
+            燃气保养提醒设置
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.AdditionalSettings.MaintainTime">
+            <summary>
+            燃气保养时间
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.ECUCorrectionParams">
+            <summary>
+            ECU修正比例
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.ECUCorrectionParams.#ctor(IGT.Models.Settings.ECUCorrectionParams)">
+            <summary>
+            实例化 ECU修正比例
+            </summary>
+            <param name="model">ECU修正比例</param>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUCorrectionParams.CalibrationScale">
+            <summary>
+            0.0ms-25.5ms的修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUCorrectionParams.LocationX">
+            <summary>
+            10个坐标点的X
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.InjectorCorrection">
+            <summary>
+            喷轨修正参数
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.InjectorCorrection.#ctor(IGT.Models.Settings.InjectorCorrectionSetting)">
+            <summary>
+            实例化 喷轨修正参数
+            </summary>
+            <param name="model">喷轨修正参数</param>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.CorrectionValues">
+            <summary>
+            喷轨修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.MinOpenTime">
+            <summary>
+            喷轨最小开启时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.CorrectionTime">
+            <summary>
+            喷轨修正时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.OpenKeepTime">
+            <summary>
+            喷轨全开保持时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.InjectEmptyScale">
+            <summary>
+            喷轨输出占空比
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.InjectorCorrection.MaxOpenTime">
+            <summary>
+            喷轨最大开启时间
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.ECUSetting">
+            <summary>
+            ECU设定参数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.BaseData">
+            <summary>
+            保存ECU基本参数的前四个字节
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Cylinders">
+            <summary>
+            气缸数
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.FuelType">
+            <summary>
+            燃料类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.O2Numbers">
+            <summary>
+            氧传感器数量
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.InjectionMode">
+            <summary>
+            喷射模式
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Coils">
+            <summary>
+            线圈数量
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RevolutionSignalType">
+            <summary>
+            转速信号类型 LDC转速信号类型 增加 RevolutionSignalType
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RPMInjectionSelect">
+            <summary>
+            转速源选择  LDC RPMInjectionSelect增加
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RPMSource">
+            <summary>
+            转速信号源
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RPMVoltage">
+            <summary>
+            转速信号门限电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.SwitchTemp">
+            <summary>
+            切换温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.SwitchRPM">
+            <summary>
+            切换转速
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.SwitchMode">
+            <summary>
+            切换方式
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.OverlapTimes">
+            <summary>
+            切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.OrderDelay">
+            <summary>
+            顺序切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.GasFillTime">
+            <summary>
+            预充气时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ReducerTempSens">
+            <summary>
+            减压器温度传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.GasTempSens">
+            <summary>
+            燃气温度传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.OperationalPress">
+            <summary>
+            燃气工作压力
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.MinimumPress">
+            <summary>
+            最小燃气压力
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.PressErrorTime">
+            <summary>
+            压力故障时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.MinOilEn">
+            <summary>
+            最低转速转油
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.MinGasRPM">
+            <summary>
+            最低燃气转速
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.MiniGasTemp">
+            <summary>
+            燃气最低温度
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.InjectorType">
+            <summary>
+            喷轨类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.LevelIndicatorSens">
+            <summary>
+            液位传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.GasLevel">
+            <summary>
+            液位传感器电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.EngineType">
+            <summary>
+            发动机类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.HotStart">
+            <summary>
+            发动机热启动
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.StartAndStop">
+            <summary>
+            Start and Stop
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Valvetronik">
+            <summary>
+            Valvetronik
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.InjetPositiveDrive">
+            <summary>
+            喷油嘴正极驱动
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Weak">
+            <summary>
+            马自达减弱
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.SpeedThicken">
+            <summary>
+            加速加浓
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RunningGasStrategy">
+            <summary>
+            燃气高速运行时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RunningRPM">
+            <summary>
+            燃气高速运行转速条件(高)
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RunningMinRPM">
+            <summary>
+            燃气高速运行转速条件（低）
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RunningTijiTime">
+            <summary>
+            燃气高速运行喷油时间条件
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.RunningOilCompensation">
+            <summary>
+            燃气高速运行喷油补偿
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.O2Type">
+            <summary>
+            氧传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda1Type">
+            <summary>
+            氧传感器1类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda2Type">
+            <summary>
+            氧传感器2类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda1HV">
+            <summary>
+            氧传感器1高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda1LV">
+            <summary>
+            氧传感器1低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda2HV">
+            <summary>
+            氧传感器2高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Lambda2LV">
+            <summary>
+            氧传感器2低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.LambdaDelay">
+            <summary>
+            氧传感器仿真延时
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.LambdaInjectNum">
+            <summary>
+            氧传感器喷射学习数量
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.AutoDiagnosis">
+            <summary>
+            自动诊断
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.AutoAdaptive">
+            <summary>
+            自动自适应（OBD自适应）
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.AdaptiveRange">
+            <summary>
+            自适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.AutoStopAdaptive">
+            <summary>
+            自适应自动停止
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.AdaptiveAssist">
+            <summary>
+            自适应协助
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ODBReverseAssist">
+            <summary>
+            反向修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ODBAdaptRange">
+            <summary>
+            ODB适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ODBBank1Correct">
+            <summary>
+            ODB Bank1矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ODBBank2Correct">
+            <summary>
+            ODB Bank2矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ODBErrorAutoClear">
+            <summary>
+            OBD故障码自动消除
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ExtraInjectionCutting">
+            <summary>
+            额外喷射断开
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ExtraInjectionSensitivityEnable">
+            <summary>
+            辅助喷射敏感度使能
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ExtrainjSensitivity">
+            <summary>
+            辅助喷射起始时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.ExtraInjectionIdentTime">
+            <summary>
+            灵敏度可调
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.CompleteResetOfErrors">
+            <summary>
+            1 字节bit4：OBD 完成故障错误复位有效, 0-取消, 1-选中；
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:IGT.Service.Storage.ECUSetting.SelectiveResetOfErrors" -->
+        <member name="P:IGT.Service.Storage.ECUSetting.OBDStandard">
+            <summary>
+            OBD标准
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.Reserve">
+            <summary>
+            保留
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.OBDType">
+            <summary>
+            OBD类型
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.ECUSetting.OBDAdaptiveRange">
+            <summary>
+            OBD自适应范围
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.IStorageModel">
+            <summary>
+            表示用于存储的Model
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.IStorageModel.SaveChanges(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            保存所有修改
+            </summary>
+            <param name="io">要写入的IO代理</param>
+        </member>
+        <member name="M:IGT.Service.Storage.IStorageModel.CancelChanges">
+            <summary>
+            取消所有修改
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.IStorageModel`1">
+            <summary>
+            表示用于存储的Model
+            </summary>
+            <typeparam name="T">要存储的Model类型</typeparam>
+        </member>
+        <member name="M:IGT.Service.Storage.IStorageModel`1.Detaching">
+            <summary>
+            分离模型从此实例
+            </summary>
+            <returns>分离后的Model</returns>
+        </member>
+        <member name="M:IGT.Service.Storage.IStorageModel`1.Attach(`0)">
+            <summary>
+            附加模型到此实例
+            </summary>
+            <param name="model">要附加的Model</param>
+        </member>
+        <member name="T:IGT.Service.Storage.MAPCalibrationParams">
+            <summary>
+            MAP标定参数
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.MAPCalibrationParams.#ctor(IGT.Models.Settings.MAPCalibrationParams)">
+            <summary>
+            实例化 MAP标定参数
+            </summary>
+            <param name="model">MAP标定参数</param>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.RPMs">
+            <summary>
+            RPM转速
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.Injection">
+            <summary>
+            喷油时间
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.MAPValues">
+            <summary>
+            标定值
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.DataLockStatus">
+            <summary>
+            MAP标定数据锁定状态
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.Tiji3DCurve">
+            <summary>
+            喷射曲线3D
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.MAPCalibrationParams.Tiji2DCurve">
+            <summary>
+            喷射曲线2D
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.PLCData">
+            <summary>
+            下位机数据
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.#ctor(IGT.Service.PLC.Device,System.String)">
+            <summary>
+            实例化 下位机数据
+            </summary>
+            <param name="device">关联的设备</param>
+            <param name="defaultSettingPath">默认配置路径</param>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.LoadFromPLC">
+            <summary>
+            从下位机加载
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.LoadFromFile(System.String)">
+            <summary>
+            从文件加载
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.LoadAuto">
+            <summary>
+            加载（自定选择来源）
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.LoadAutoAndWait">
+            <summary>
+            加载并等待
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.LoadItem(IGT.Service.Storage.SettingItems)">
+            <summary>
+            加载指定项
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.WaitReadyIfPLC(IGT.Service.Storage.SettingItems)">
+            <summary>
+            等待指定项从下位机加载完毕
+            </summary>
+            <param name="item">要等待的项目</param>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.WaitReadyIFPLC">
+            <summary>
+            等待数据从下位机加载完毕
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.SaveChanges">
+            <summary>
+            保所所有变更到下位机
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.PLCData.SaveToFile(System.String)">
+            <summary>
+            保存当前数据到文件
+            </summary>
+            <param name="path">保存路径</param>
+        </member>
+        <member name="P:IGT.Service.Storage.PLCData.Device">
+            <summary>
+            关联的设备
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.SettingItems">
+            <summary>
+            设定项目枚举
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.ECUSettingTask">
+            <summary>
+            任务 加载ECU设定
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.MAPCalibrationParamsTask">
+            <summary>
+            任务 获取MAP标定参数
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.ECUCorrectionParamsTask">
+            <summary>
+            任务 获取ECU修正比例
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.InjectorCorrectionSettingTask">
+            <summary>
+            任务 获取喷规修正参数
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.CorrectSettingTask">
+            <summary>
+            任务 获取修正设定
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.AdditionalSettingsTask">
+            <summary>
+            任务 获取附加设定
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.Tiji2DCurveTask">
+            <summary>
+            任务 获取2D曲线
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.Tiji3DCurveTask">
+            <summary>
+            任务 获取3D曲线
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Storage.CorrectionSetting">
+            <summary>
+            修正设定
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.CorrectionSetting.#ctor(IGT.Models.Settings.CorrectSetting)">
+            <summary>
+            实例化
+            </summary>
+            <param name="model">修正设定</param>
+        </member>
+        <member name="P:IGT.Service.Storage.CorrectionSetting.Red">
+            <summary>
+            减压器温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.CorrectionSetting.Gas">
+            <summary>
+            燃气温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Storage.CorrectionSetting.GasPress">
+            <summary>
+            燃气压力修正
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Storage.Unitls.Clone(IGT.Models.Settings.ECUSetting)">
+            <summary>
+            克隆ECUSetting
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.Storage.Unitls.ToReadOnlyCollection``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            转换为只读集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source">源</param>
+            <returns>转换后的只读集合</returns>
+        </member>
+        <member name="T:IGT.Service.IOUtils">
+            <summary>
+            IO工具类
+            </summary>
+        </member>
+        <member name="M:IGT.Service.IOUtils.SendAndRead(SerialPortsUtils.Agents.Agent,System.Byte,System.Byte,System.Byte[])">
+            <summary>
+            发送并读取报文
+            </summary>
+            <param name="agent">通信代理</param>
+            <param name="cmd1">命令</param>
+            <param name="cmd2">子命令</param>
+            <param name="data">正文</param>
+            <returns>响应的报文</returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.SendAndRead(SerialPortsUtils.Agents.Agent,System.Byte,System.Byte[])">
+            <summary>
+            发送并读取报文
+            </summary>
+            <param name="agent">通信代理</param>
+            <param name="cmd">命令</param>
+            <param name="data">正文</param>
+            <returns>响应的报文</returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetSettingFormPLC(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取ECU设定
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetMAPCalibrationParams(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取MAP标定参数
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetECUCorrectionParams(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取ECU修正比例
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetInjectorCorrectionSetting(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取喷轨修正参数
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetGasTempCorrectionSettings(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机燃气温度修正
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetRedTempCorrectionSettings(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取减压器温度修正
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.GetGasPressCorrectionSettings(SerialPortsUtils.Agents.Agent)">
+            <summary>
+            从下位机获取燃气压力修正
+            </summary>
+            <param name="io"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.IOUtils.SetGasTempCorrection_Correction(SerialPortsUtils.Agents.Agent,System.Int32,System.Int32)">
+            <summary>
+            设定下位机燃气温度修正百分比
+            </summary>
+            <param name="io"></param>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:IGT.Service.IOUtils.SetECUCorrectionParams_LocationX(SerialPortsUtils.Agents.Agent,System.Single[])">
+            <summary>
+            设置ECU修正比例的坐标点
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:IGT.Service.IOUtils.SetECUCorrectionParams_CalibrationScale(SerialPortsUtils.Agents.Agent,System.Int32[])">
+            <summary>
+            设置ECU修正比例的比例
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:IGT.Service.Language.IMultLang">
+            <summary>
+            多语言接口
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Language.IMultLang.ApplyLang">
+            <summary>
+            应用当前语言
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Language.LangService">
+            <summary>
+            多语言服务
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Language.LangService.#ctor(System.String,System.String)">
+            <summary>
+            创建多语言服务
+            </summary>
+            <param name="dir">语言文件目录</param>
+            <param name="ver">要加载的版本</param>
+        </member>
+        <member name="M:IGT.Service.Language.LangService.SetCurrentWords(IGT.Service.Language.LangInfo)">
+            <summary>
+            设置当前语言
+            </summary>
+            <param name="lang">要使用的语言的信息</param>
+        </member>
+        <member name="M:IGT.Service.Language.LangService.SetCurrentWords(System.String)">
+            <summary>
+            设置当前语言
+            </summary>
+            <param name="fileFullName">语言文件完整名称</param>
+        </member>
+        <member name="M:IGT.Service.Language.LangService.InitList">
+            <summary>
+            初始化语言列表
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangService.LangueDir">
+            <summary>
+            语言文件目录
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangService.CurrentWords">
+            <summary>
+            当前使用的语言字典
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangService.CurrentLang">
+            <summary>
+            当前语言信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangService.LangList">
+            <summary>
+            语言列表
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangService.Ver">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Language.LangInfo">
+            <summary>
+            语言信息
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.FileFullName">
+            <summary>
+            语言文件完整名称
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.LCID">
+            <summary>
+            LCID
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.DisplayName">
+            <summary>
+            用于显示的友好名称
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.Ver">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.Font">
+            <summary>
+            字体
+            </summary>
+        </member>
+        <member name="P:IGT.Service.Language.LangInfo.FontSizeOffset">
+            <summary>
+            相对于标准字体大小的偏移
+            </summary>
+        </member>
+        <member name="T:IGT.Service.Tulpe">
+            <summary>
+            元祖
+            </summary>
+        </member>
+        <member name="M:IGT.Service.Tulpe.Create``2(``0,``1)">
+            <summary>
+            创建元祖
+            </summary>
+            <typeparam name="T1">Item1的类型</typeparam>
+            <typeparam name="T2">Item2的类型</typeparam>
+            <param name="item1">item1</param>
+            <param name="item2">item2</param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.Service.Tulpe.Create``5(``0,``1,``2,``3,``4)">
+            <summary>
+            创建元祖
+            </summary>
+            <typeparam name="T1">Item1的类型</typeparam>
+            <typeparam name="T2">Item2的类型</typeparam>
+            <typeparam name="T3">Item3的类型</typeparam>
+            <typeparam name="T4">Item4的类型</typeparam>
+            <typeparam name="T5">Item5的类型</typeparam>
+            <param name="item1">item1</param>
+            <param name="item2">item2</param>
+            <param name="item3">item3</param>
+            <param name="item4">item4</param>
+            <param name="item5">item5</param>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.Service.Tulpe`2">
+            <summary>
+            元祖
+            </summary>
+            <typeparam name="T1">Item1的类型</typeparam>
+            <typeparam name="T2">Item2的类型</typeparam>
+        </member>
+        <member name="M:IGT.Service.Tulpe`2.#ctor(`0,`1)">
+            <summary>
+            实例化
+            </summary>
+            <param name="item1">item1</param>
+            <param name="item2">item2</param>
+        </member>
+        <member name="T:IGT.Service.Tulpe`5">
+            <summary>
+            元祖
+            </summary>
+            <typeparam name="T1">Item1的类型</typeparam>
+            <typeparam name="T2">Item2的类型</typeparam>
+            <typeparam name="T3">Item3的类型</typeparam>
+            <typeparam name="T4">Item4的类型</typeparam>
+            <typeparam name="T5">Item5的类型</typeparam>
+        </member>
+        <member name="M:IGT.Service.Tulpe`5.#ctor(`0,`1,`2,`3,`4)">
+            <summary>
+            实例化
+            </summary>
+            <param name="item1">item1</param>
+            <param name="item2">item2</param>
+            <param name="item3">item3</param>
+            <param name="item4">item4</param>
+            <param name="item5">item5</param>
+        </member>
+    </members>
+</doc>

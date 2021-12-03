@@ -1,0 +1,1368 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IGT.Models</name>
+    </assembly>
+    <members>
+        <member name="T:IGT.Models.Enums.AutoCalibrationCMD">
+            <summary>
+            自动标定命令模式
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationCMD.Exit">
+            <summary>
+            退出
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationCMD.Auto">
+            <summary>
+            自动
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationCMD.AutoFull">
+            <summary>
+            全自动
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.AutoCalibrationResult">
+            <summary>
+            自动标定结果
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.Successed">
+            <summary>
+            标定成功
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.NoMAPSensor">
+            <summary>
+            没检测到MAP传感器
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.MAPPressLower">
+            <summary>
+            真空压力过低
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.MAPPressHigher">
+            <summary>
+            真空压力过高
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.RPMLower">
+            <summary>
+            发动机转速过低
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.RPMHigher">
+            <summary>
+            发动机转速过高
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.PertolSignalError">
+            <summary>
+            喷油信号错误
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationResult.UnknowageError">
+            <summary>
+            未知错误
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.AutoCalibrationState">
+            <summary>
+            自动标定状态
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.NotEnter">
+            <summary>
+            没有进入自动标定
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.WaitEngineStart">
+            <summary>
+            等待发动机启动
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.WaitRedArrive50">
+            <summary>
+            等待减压器温度达到50℃
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.InjectorParamSend">
+            <summary>
+            喷嘴参数传送
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.Error">
+            <summary>
+            标定出错
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.AutoCalibrationState.Finished">
+            <summary>
+            结束
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.EngineTypes">
+            <summary>
+            发动机类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.EngineTypes.Standard">
+            <summary>
+            自然吸气
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.EngineTypes.Turbo">
+            <summary>
+            涡轮增压
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.ErroClearLevels">
+            <summary>
+            错误清除等级
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.ErroClearLevels.Not">
+            <summary>
+            不清除
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.ErroClearLevels.Choice">
+            <summary>
+            手动选择
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.ErroClearLevels.Full">
+            <summary>
+            全部
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.FuelTypes">
+            <summary>
+            燃料类型
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.CoilNums">
+            <summary>
+            线圈数
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.CoilNums.OneCoil">
+            <summary>
+            单线圈
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.CoilNums.TwoCoils">
+            <summary>
+            双线圈
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.CoilNums.FourColis">
+            <summary>
+            四线圈
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.CoilNums.SixColis">
+            <summary>
+            六线圈
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.GasStrategies">
+            <summary>
+            燃气高速运行时
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.GasStrategies.KeepGas">
+            <summary>
+            保持燃气
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.GasStrategies.SwitchOil">
+            <summary>
+            转换燃油
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.GasStrategies.OilCompensation">
+            <summary>
+            燃油补偿
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.InjectionModes">
+            <summary>
+            喷射模式
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.InjectionModes.Sequential">
+            <summary>
+            顺序
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.InjectionModes.SemiSequential">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.InjectionModes.FullGroup">
+            <summary>
+            同时
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.InjectorTypes">
+            <summary>
+            喷轨类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.InjectorTypes.Custom">
+            <summary>
+            自定义
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.LambdaTypes">
+            <summary>
+            氧传感器类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LambdaTypes.Befor">
+            <summary>
+            无连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LambdaTypes.After">
+            <summary>
+            无连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LambdaTypes.NoConnection">
+            <summary>
+            无连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LambdaTypes.Volt0_1">
+            <summary>
+            0-1V
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LambdaTypes.Volt0_5">
+            <summary>
+            0-5V
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.LevelIndicatorSensTypes">
+            <summary>
+            液位传感器类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.IGT">
+            <summary>
+            IGT
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.NotStandard">
+            <summary>
+            非标准
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.NotStandardInverted">
+            <summary>
+            非标准反向
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.Lovato">
+             <summary>
+            Lovato
+             </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.ZeroTo90ohm">
+            <summary>
+            0-90ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.ZeroTo110ohm">
+            <summary>
+            0-110ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.HundredTo10Kohm">
+            <summary>
+            100-10kohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.ZeroTo90ohm_2">
+            <summary>
+            0-90ohm_2
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.NinetyTo0ohm">
+            <summary>
+            90-0ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.HundredTenTo0ohm">
+            <summary>
+            110-0ohtm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.LevelIndicatorSensTypes.TenKTo100ohm">
+            <summary>
+            10k-100ohm
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.OBDStandard">
+            <summary>
+            OBD标准
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.OBDTypes">
+            <summary>
+            OBD类型
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.OBDConnectState">
+            <summary>
+            ODB连接状态
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.Waitting">
+            <summary>
+            等待连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.Connecting">
+            <summary>
+            正在连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.Connected">
+            <summary>
+            已连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.NoConnect">
+            <summary>
+            无连接
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.OBDConnectState.Error">
+            <summary>
+            错误
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.RevolutionSignalTypes">
+            <summary>
+            转速信号源
+            转速信号类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.RevolutionSignalTypes.Standard">
+            <summary>
+            标准
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.RevolutionSignalTypes.Weak">
+            <summary>
+            弱
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.RPMSources">
+            <summary>
+            转速信号源
+            转速信号类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.RPMSources.TwoCoils">
+            <summary>
+            点火线圈
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.RPMSources.RPMSensor">
+            <summary>
+            曲轴传感器
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.RPMSources.RPMSensor2">
+            <summary>
+            自动识别
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.SwitchModes">
+            <summary>
+            切换方式
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.SwitchModes.InAcceleration">
+            <summary>
+            加速切换
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.SwitchModes.InDecelertion">
+            <summary>
+            减速切换
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.TempSensTypes">
+            <summary>
+            温度传感器类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm10K">
+            <summary>
+            10Kohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm8K5">
+            <summary>
+            8K5ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm5K">
+            <summary>
+            5Kohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm4K7">
+            <summary>
+            4K7Ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm2K2">
+            <summary>
+            2K2ohm
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.TempSensTypes.Ohm2K">
+            <summary>
+            2Kohm
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Enums.MaintainRemindTypes">
+            <summary>
+            燃气保养提醒类型
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.MaintainRemindTypes.Off">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.MaintainRemindTypes.Sound">
+            <summary>
+            声音
+            </summary>
+        </member>
+        <member name="F:IGT.Models.Enums.MaintainRemindTypes.Forbid">
+            <summary>
+            禁止
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.AdditionalInfo">
+            <summary>
+            附加信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AdditionalInfo.MaintainTime">
+            <summary>
+            保养时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AdditionalInfo.EmergencyStatsPerformed">
+            <summary>
+            紧急启动次数
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.AutoCalibrationDetails">
+            <summary>
+            自动标定信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AutoCalibrationDetails.State">
+            <summary>
+            自动标定状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AutoCalibrationDetails.AutoCalibrationResult">
+            <summary>
+            自动标定结果
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AutoCalibrationDetails.InjectorBoreValue">
+            <summary>
+            喷嘴大小
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.Bank`1">
+            <summary>
+            Bank
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:IGT.Models.Feedback.Bank`1.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.Bank`1.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.Tiji2DCurve">
+            <summary>
+            喷射2D曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.Tiji2DCurve.GasCurve2D">
+            <summary>
+            喷气2D曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.Tiji2DCurve.PetrolCurve2D">
+            <summary>
+            喷油2D曲线
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.Tiji3DCurve">
+            <summary>
+            喷射3D曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.Tiji3DCurve.GasCurve">
+            <summary>
+            气体喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.Tiji3DCurve.PetrolCurve">
+            <summary>
+            汽油喷射曲线
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.DeviceStaticData">
+            <summary>
+            设备数据和统计信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.CopyRight">
+            <summary>
+            版权信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.FirmwareInfo">
+            <summary>
+            固件信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.ReleaseDate">
+            <summary>
+            发布日期
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.SerialNumber">
+            <summary>
+            序列号
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.FirstUsingDate">
+            <summary>
+            首次使用时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DeviceStaticData.HardInof">
+            <summary>
+            硬件信息
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.HardwareInfo">
+            <summary>
+            硬件信息
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.ECUVer">
+            <summary>
+            ECU版本
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.PCBVer">
+            <summary>
+            PCB版本
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.OBDEn">
+            <summary>
+            ODB支持
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.AutoAdaptive">
+            <summary>
+            自动自适应支持
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.OxygenSimulation">
+            <summary>
+            氧仿真支持
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.SmartSwitch">
+            <summary>
+            智能开关
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.GasAlert">
+            <summary>
+            燃气泄漏警报
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.ECUExtension">
+            <summary>
+            ECU扩展支持
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.MapChoose">
+            <summary>
+            MAP选择
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.Bank1Cylinders">
+            <summary>
+            Bank1缸数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.Bank2Cylinders">
+            <summary>
+            Bank2缸数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.HardwareInfo.SumCylinders">
+            <summary>
+            总缸数
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.InjectTime">
+            <summary>
+            ECU喷射时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.InjectTime.Bank">
+            <summary>
+            所属Bank
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.InjectTime.Pertrol">
+            <summary>
+            喷油时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.InjectTime.Gas">
+            <summary>
+            喷气时间
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.OBDError">
+            <summary>
+            OBD 故障
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDError.Code">
+            <summary>
+            故障码
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.OBDState">
+            <summary>
+            OBD状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.ConnectState">
+            <summary>
+            连接状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.FailuresCount">
+            <summary>
+            故障码数量
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.Bank1ShortCorrection">
+            <summary>
+            Bank1的短期修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.Bank1LongCorrection">
+            <summary>
+            Bank1的长期修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.Bank2ShortCorrection">
+            <summary>
+            Bank2的短期修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.Bank2LongCorrection">
+            <summary>
+            Bank2的长期修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.Bank1Oxygen">
+            <summary>
+            Bank1的后氧传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.OBDState.GasCorrection">
+            <summary>
+            燃气修正
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.AdaptiveState">
+            <summary>
+            自适应状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AdaptiveState.ShortCorrection">
+            <summary>
+            短期修正值
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.AdaptiveState.Offset">
+            <summary>
+            偏离值
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.RealTimeData">
+            <summary>
+            实时数据
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.PetrolsTime">
+            <summary>
+            喷油时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.GasesTime">
+            <summary>
+            喷气时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.GasPress">
+            <summary>
+            燃气压力
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.MAPPress">
+            <summary>
+            真空压力
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.TempRed">
+            <summary>
+            减压器温度
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.TempGas">
+            <summary>
+            燃气温度
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.GasLevel">
+            <summary>
+            液位传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.RPM">
+            <summary>
+            发动机转速
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.LEDLight">
+            <summary>
+            LED灯状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.SolenoidValveStatus">
+            <summary>
+            电磁阀状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.IgnitionStatus">
+            <summary>
+            点火状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.Lambda">
+            <summary>
+            氧传感器电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.RealTimeData.RPMSource">
+            <summary>
+            转速信号源
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.DiagnosisDetails">
+            <summary>
+            诊断详情
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DiagnosisDetails.InjectTimes">
+            <summary>
+            喷射时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.DiagnosisDetails.ECUWorkTime">
+            <summary>
+            ECU工作时间
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Feedback.ECUWorkTime">
+            <summary>
+            ECU工作时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.ECUWorkTime.System">
+            <summary>
+            系统运行时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.ECUWorkTime.Gas">
+            <summary>
+            燃气工作时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Feedback.ECUWorkTime.Red">
+            <summary>
+            系统工作时间
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.AdditionalSettings">
+            <summary>
+            附加设置
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.AdditionalSettings.EmergencyStartAllowed">
+            <summary>
+            是否允许紧急启动
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.AdditionalSettings.EmergencyStatsPerformed">
+            <summary>
+            可紧急启动次数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.AdditionalSettings.MaintainRemind">
+            <summary>
+            燃气保养提醒设置
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.AdditionalSettings.MaintainTime">
+            <summary>
+            保养时间
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.BaseSetting">
+            <summary>
+            车辆基本参数设定
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.ECUSetting">
+            <summary>
+            ECU设定
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.MAPCalibration">
+            <summary>
+            MAP标定
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.CorrectSetting">
+            <summary>
+            校准
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.ECUCalibration">
+            <summary>
+            ECU修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.InjectorCorrection">
+            <summary>
+            喷轨修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.BaseSetting.Additional">
+            <summary>
+            附加设定
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.CorrectSetting">
+            <summary>
+            修正设定
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.CorrectSetting.GasTemp">
+            <summary>
+            燃气温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.CorrectSetting.RedTemp">
+            <summary>
+            减压器温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.CorrectSetting.GasPress">
+            <summary>
+            燃气压力修正
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.ECUCorrectionParams">
+            <summary>
+            ECU修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUCorrectionParams.CalibrationScale">
+            <summary>
+            0.0ms-25.5ms的修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUCorrectionParams.LocationX">
+            <summary>
+            10个坐标点的X
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.ECUSetting">
+            <summary>
+            ECU设定参数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Cylinders">
+            <summary>
+            气缸数;
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.FuelType">
+            <summary>
+            燃料类型
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.O2Numbers">
+            <summary>
+            氧传感器数量
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.InjectionMode">
+            <summary>
+            喷射模式
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Coils">
+            <summary>
+            线圈数量
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RevolutionSignalType">
+            <summary>
+            转速信号类型//LDC转速信号类型 增加
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RPMSource">
+            <summary>
+            转速信号源
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RPMVoltage">
+            <summary>
+            转速信号门限电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.SwitchTemp">
+            <summary>
+            切换温度
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RPMInjectionSelect">
+            <summary>
+            转速源选择
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.SwitchRPM">
+            <summary>
+            切换转速
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.SwitchMode">
+            <summary>
+            切换方式
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.OverlapTimes">
+            <summary>
+            切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.OrderDelay">
+            <summary>
+            顺序切换延时
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ReducerTempSens">
+            <summary>
+            减压器温度传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.GasTempSens">
+            <summary>
+            燃气温度传感器
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.OperationalPress">
+            <summary>
+            燃气工作压力
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.MinimumPress">
+            <summary>
+            最小燃气压力
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.PressErrorTime">
+            <summary>
+            压力故障时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.MinOilEn">
+            <summary>
+            最低转速是否转油 最小运行, 0-转回燃油, 1-燃油； 
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.MinGasRPM">
+            <summary>
+            最低燃气转速
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.MiniGasTemp">
+            <summary>
+            燃气最低温度
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.InjectorType">
+            <summary>
+            喷轨类型
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.LevelIndicatorSens">
+            <summary>
+            液位传感器类型
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.GasLevel">
+            <summary>
+            液位传感器电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.BackTransitionTm">
+            <summary>
+            喷油嘴切断过渡时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.InjectorPositiveDriver">
+            <summary>
+            喷嘴正极驱动，false为负极驱动
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.EngineType">
+            <summary>
+            发动机类型
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.HotStart">
+            <summary>
+            发动机热启动
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.StartAndStop">
+            <summary>
+            Start and Stop
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Valvetronik">
+            <summary>
+            Valvetronik
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.InjetPositiveDrive">
+            <summary>
+            正极驱动
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Weak">
+            <summary>
+            马自达减弱
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.SpeedThicken">
+            <summary>
+            加速加浓
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RunningGasStrategy">
+            <summary>
+            燃气高速运行时
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RunningMaxRPM">
+            <summary>
+            燃气高速运行转速条件（高）
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RunningMinRPM">
+            <summary>
+            燃气高速运行转速条件（低）
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RunningTijiTime">
+            <summary>
+            燃气高速运行喷油时间条件
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.RunningOilCompensation">
+            <summary>
+            燃气高速运行喷油补偿
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.GasFillTime">
+            <summary>
+            预充气时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.O2Type">
+            <summary>
+            氧传感器1类型
+            </summary>
+            
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Lambda2Type">
+            <summary>
+            氧传感器2类型
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Lambda1HV">
+            <summary>
+            氧传感器1高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Lambda1LV">
+            <summary>
+            氧传感器1低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Lambda2HV">
+            <summary>
+            氧传感器2高电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.Lambda2LV">
+            <summary>
+            氧传感器2低电压
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.LambdaDelay">
+            <summary>
+            氧传感器仿真延时
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.LambdaInjectNum">
+            <summary>
+            氧传感器喷射学习数量
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.AutoDiagnosis">
+            <summary>
+            自动诊断
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.AutoAdaptive">
+            <summary>
+            自动自适应（OBD自适应）
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.AdaptiveRange">
+            <summary>
+            自适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.AutoStopAdaptive">
+            <summary>
+            自适应自动停止
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.AdaptiveAssist">
+            <summary>
+            自适应协助
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ODBReverseAssist">
+            <summary>
+            ODB反向修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ODBAdaptRange">
+            <summary>
+            ODB适应范围
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ODBBank1Correct">
+            <summary>
+            ODB Bank1矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ODBBank2Correct">
+            <summary>
+            ODB Bank2矫正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ODBErrorAutoClear">
+            <summary>
+            OBD故障码自动消除
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ExtraInjectionCutting">
+            <summary>
+            额外喷射断开
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ExtrainjSensitivity">
+            <summary>
+            辅助喷射敏感度
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ExtraInjectionIdentTime">
+            <summary>
+            辅助喷射起始时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.ExtraInjectionSensitivityEnable">
+            <summary>
+            灵敏度可调
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.ECUSetting.CompleteResetOfErrors">
+            <summary>
+            1 字节bit4：OBD 完成故障错误复位有效, 0-取消, 1-选中；
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:IGT.Models.Settings.ECUSetting.SelectiveResetOfErrors" -->
+        <member name="T:IGT.Models.Settings.InjectorCorrectionSetting">
+            <summary>
+            喷轨修正参数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.CorrectionValues">
+            <summary>
+            喷轨修正比例
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.MinOpenTime">
+            <summary>
+            喷轨最小开启时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.CorrectionTime">
+            <summary>
+            喷轨修正时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.OpenKeepTime">
+            <summary>
+            喷轨全开保持时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.InjectEmptyScale">
+            <summary>
+            喷轨输出占空比
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.InjectorCorrectionSetting.MaxOpenTime">
+            <summary>
+            喷轨最大开启时间
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.MAPCalibrationParams">
+            <summary>
+            MAP标定参数
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.RPMs">
+            <summary>
+            RPM转速
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.Injection">
+            <summary>
+            喷油时间
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.MAPValues">
+            <summary>
+            标定值
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.GasCurve">
+            <summary>
+            气体喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.PetrolCurve">
+            <summary>
+            汽油喷射曲线
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.DataLockStatus">
+            <summary>
+            MAP标定数据锁定状态
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.GasCurve2D">
+            <summary>
+            气体喷射曲线2D
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.MAPCalibrationParams.PetrolCurve2D">
+            <summary>
+            汽油喷射曲线2D
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.PressCorrectionSet">
+            <summary>
+            燃气压力修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.PressCorrectionSet.Items">
+            <summary>
+            修正表数据
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.PressCorrectionSet.Corrections">
+            <summary>
+            修正百分比
+            </summary>
+        </member>
+        <member name="T:IGT.Models.Settings.TempCorrectionSet">
+            <summary>
+            温度修正
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.TempCorrectionSet.Items">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:IGT.Models.Settings.TempCorrectionSet.Corrections">
+            <summary>
+            百分比
+            </summary>
+        </member>
+    </members>
+</doc>

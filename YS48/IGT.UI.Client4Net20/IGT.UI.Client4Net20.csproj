@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGT.UI.Client</RootNamespace>
+    <AssemblyName>Zeus</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName />
+    <SccLocalPath />
+    <SccAuxPath />
+    <SccProvider />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Zeus.xml</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>exe.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DasNetGauge">
+      <HintPath>..\Lib\DasNetGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="DasNetRuler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0cd9c54f44cd74b4" />
+    <Reference Include="DasNetTemperature">
+      <HintPath>..\Lib\DasNetTemperature.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqBridge">
+      <HintPath>..\Lib\LinqBridge.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TeeChart">
+      <HintPath>..\Lib\TeeChart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="ConnectionActionMode.cs" />
+    <Compile Include="DeviceSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeviceSearchForm.Designer.cs">
+      <DependentUpon>DeviceSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IPage.cs" />
+    <Compile Include="LaunchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchForm.Designer.cs">
+      <DependentUpon>LaunchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Msg.cs" />
+    <Compile Include="Pages\AutoCalibration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\AutoCalibration.Designer.cs">
+      <DependentUpon>AutoCalibration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CarSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\CarSetting.Designer.cs">
+      <DependentUpon>CarSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Diagnosis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Diagnosis.Designer.cs">
+      <DependentUpon>Diagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RealyTimeData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\RealyTimeData.Designer.cs">
+      <DependentUpon>RealyTimeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PWDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PWDForm.Designer.cs">
+      <DependentUpon>PWDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealTimeGraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealTimeGraphForm.Designer.cs">
+      <DependentUpon>RealTimeGraphForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealyDataPre.cs" />
+    <Compile Include="Services.cs" />
+    <Compile Include="SetPWDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPWDForm.Designer.cs">
+      <DependentUpon>SetPWDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SharedValueHelper.cs" />
+    <Compile Include="TableCellEditDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableCellEditDialog.Designer.cs">
+      <DependentUpon>TableCellEditDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeService.cs" />
+    <Compile Include="UIHelper.cs" />
+    <Compile Include="UIModels\BetchEditModes.cs" />
+    <Compile Include="UIModels\PointD.cs" />
+    <Compile Include="UIModels\TableData.cs" />
+    <Compile Include="UpdateECUForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateECUForm.Designer.cs">
+      <DependentUpon>UpdateECUForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DiaLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DiaLine.Designer.cs">
+      <DependentUpon>DiaLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\InjectorCorrectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\InjectorCorrectionForm.Designer.cs">
+      <DependentUpon>InjectorCorrectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\InjectorSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\InjectorSetForm.Designer.cs">
+      <DependentUpon>InjectorSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\InjectorsMeasurement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\InjectorsMeasurement.Designer.cs">
+      <DependentUpon>InjectorsMeasurement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MainMenuButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MainMenuButton.Designer.cs">
+      <DependentUpon>MainMenuButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MyMenuStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MyMenuStrip.Designer.cs">
+      <DependentUpon>MyMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OBDErrorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\OBDErrorsForm.Designer.cs">
+      <DependentUpon>OBDErrorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RealTimeDataLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\RealTimeDataLabel.Designer.cs">
+      <DependentUpon>RealTimeDataLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\AdditionalSettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\AdditionalSettingsPanel.Designer.cs">
+      <DependentUpon>AdditionalSettingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\AdvancedSettingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\AdvancedSettingPanel.Designer.cs">
+      <DependentUpon>AdvancedSettingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\CarParametersSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\CarParametersSettings.Designer.cs">
+      <DependentUpon>CarParametersSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\DiagramPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\DiagramPanel.Designer.cs">
+      <DependentUpon>DiagramPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\EmissionPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\EmissionPanel.Designer.cs">
+      <DependentUpon>EmissionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\ISettingPanel.cs" />
+    <Compile Include="UserControls\SettingPanels\MAPCalibrationSettingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\MAPCalibrationSettingPanel.Designer.cs">
+      <DependentUpon>MAPCalibrationSettingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\MAPset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\MAPset.Designer.cs">
+      <DependentUpon>MAPset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\OBDSettingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\OBDSettingPanel.designer.cs">
+      <DependentUpon>OBDSettingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\SensorsSettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\SensorsSettingsPanel.Designer.cs">
+      <DependentUpon>SensorsSettingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\SwitchSettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\SwitchSettingsPanel.Designer.cs">
+      <DependentUpon>SwitchSettingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\TempCorrectionSettingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SettingPanels\TempCorrectionSettingsPanel.Designer.cs">
+      <DependentUpon>TempCorrectionSettingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TogglePictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\TogglePictureBox.Designer.cs">
+      <DependentUpon>TogglePictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistaButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VistaButton.Designer.cs">
+      <DependentUpon>VistaButton.cs</DependentUpon>
+    </Compile>
+    <None Include="Lang\4Spanish.lng">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\warning1.jpg" />
+    <None Include="Resources\未标题-1.png" />
+    <EmbeddedResource Include="UserControls\SettingPanels\MAPset.resx">
+      <DependentUpon>MAPset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\OBDSettingPanel.resx">
+      <DependentUpon>OBDSettingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistaButton.resx">
+      <DependentUpon>VistaButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\RealTimeDataLabel.png" />
+    <None Include="Resources\Welcome_cn1.jpg" />
+    <None Include="Resources\Welcome_cn.jpg" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceSearchForm.resx">
+      <DependentUpon>DeviceSearchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchForm.resx">
+      <DependentUpon>LaunchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AutoCalibration.resx">
+      <DependentUpon>AutoCalibration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\CarSetting.resx">
+      <DependentUpon>CarSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Diagnosis.resx">
+      <DependentUpon>Diagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RealyTimeData.resx">
+      <DependentUpon>RealyTimeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PWDForm.resx">
+      <DependentUpon>PWDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealTimeGraphForm.resx">
+      <DependentUpon>RealTimeGraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPWDForm.resx">
+      <DependentUpon>SetPWDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableCellEditDialog.resx">
+      <DependentUpon>TableCellEditDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateECUForm.resx">
+      <DependentUpon>UpdateECUForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DiaLine.resx">
+      <DependentUpon>DiaLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\InjectorCorrectionForm.resx">
+      <DependentUpon>InjectorCorrectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\InjectorSetForm.resx">
+      <DependentUpon>InjectorSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\InjectorsMeasurement.resx">
+      <DependentUpon>InjectorsMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MainMenuButton.resx">
+      <DependentUpon>MainMenuButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MyMenuStrip.resx">
+      <DependentUpon>MyMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OBDErrorsForm.resx">
+      <DependentUpon>OBDErrorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\RealTimeDataLabel.resx">
+      <DependentUpon>RealTimeDataLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\AdditionalSettingsPanel.resx">
+      <DependentUpon>AdditionalSettingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\AdvancedSettingPanel.resx">
+      <DependentUpon>AdvancedSettingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\CarParametersSettings.resx">
+      <DependentUpon>CarParametersSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\DiagramPanel.resx">
+      <DependentUpon>DiagramPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\EmissionPanel.resx">
+      <DependentUpon>EmissionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\MAPCalibrationSettingPanel.resx">
+      <DependentUpon>MAPCalibrationSettingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\SensorsSettingsPanel.resx">
+      <DependentUpon>SensorsSettingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\SwitchSettingsPanel.resx">
+      <DependentUpon>SwitchSettingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SettingPanels\TempCorrectionSettingsPanel.resx">
+      <DependentUpon>TempCorrectionSettingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <Content Include="Config.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Lang\2English.lng">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lang\1Portugues.lng">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IGT.Models\IGT.Models.csproj">
+      <Project>{c9c8555c-a159-47b8-891e-96f44cc5c4d2}</Project>
+      <Name>IGT.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IGT.Service\IGT.Service.csproj">
+      <Project>{a926da03-743c-4172-8656-99029f9549d1}</Project>
+      <Name>IGT.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SerialPortsUtilsNet20\SerialPortsUtilsNet20.csproj">
+      <Project>{549e1946-8e7c-462a-bf3b-8d479f9ad03b}</Project>
+      <Name>SerialPortsUtilsNet20</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DefaultSetting.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="exe.ico" />
+    <Content Include="ICON.ico" />
+    <None Include="Images\background2.jpg" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Images\background3.png" />
+    <Content Include="Images\GasCutout.png" />
+    <None Include="Images\RedLabelBG2.png" />
+    <None Include="Images\qq.png" />
+    <Content Include="Images\Welcome_cn.jpg" />
+    <Content Include="Images\Welcome_en.jpg" />
+    <Content Include="Images\X5.ico" />
+    <Content Include="Images\IgnitionStatus.png" />
+    <Content Include="Images\IgnitionStatus2.png" />
+    <Content Include="Images\InjectorsMeasurement.png" />
+    <Content Include="Images\KeySwitchNoBorder.png" />
+    <Content Include="Images\KeySwitchNoBorder2.png" />
+    <Content Include="Images\LEDLightGreen.png" />
+    <Content Include="Images\LEDLightNone.png" />
+    <Content Include="Images\LEDLightRed.png" />
+    <Content Include="Images\LEDLightYellow.png" />
+    <Content Include="Images\MainMenu_AutoCalibration.png" />
+    <Content Include="Images\MainMenu_AutoCalibration2.png" />
+    <Content Include="Images\MainMenu_Car.png" />
+    <Content Include="Images\MainMenu_Car2.png" />
+    <Content Include="Images\MainMenu_Diagnostics.png" />
+    <Content Include="Images\MainMenu_Diagnostics2.png" />
+    <Content Include="Images\MainMenu_Exit.png" />
+    <Content Include="Images\MainMenu_Exit2.png" />
+    <Content Include="Images\MainMenu_Load.png" />
+    <Content Include="Images\MainMenu_Load2.png" />
+    <Content Include="Images\MainMenu_RealyData.png" />
+    <Content Include="Images\MainMenu_RealyData2.png" />
+    <Content Include="Images\MainMenu_Save.png" />
+    <Content Include="Images\MainMenu_Save2.png" />
+    <Content Include="Images\MainMenu_Update.png" />
+    <Content Include="Images\MainMenu_Update2.png" />
+    <Content Include="Images\OperatingTime.png" />
+    <Content Include="Images\PetrolDiagnosis.png" />
+    <Content Include="Images\RedLabelBG.png" />
+    <Content Include="Images\SolenoidValveStatus.png" />
+    <Content Include="Images\SolenoidValveStatus2.png" />
+    <Content Include="Images\ToggleR1.png" />
+    <Content Include="Images\ToggleR2.png" />
+    <Content Include="Images\TopBar_About.png" />
+    <Content Include="Images\TopBar_CloseButton.png" />
+    <Content Include="Images\TopBar_Fill.gif" />
+    <Content Include="Images\TopBar_Help.png" />
+    <Content Include="Images\TopBar_MinButton.png" />
+    <Content Include="Images\TopBar_Setting.png" />
+    <Content Include="Images\TopBar_Space.png" />
+    <Content Include="OBD_Fault_Code.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

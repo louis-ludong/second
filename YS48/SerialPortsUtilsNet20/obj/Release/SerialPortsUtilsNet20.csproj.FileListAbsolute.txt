@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.pdb
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.pdb
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.dll.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.dll.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\4\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\4\3\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.pdb
+C:\Users\Administrator\Desktop\4\3\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\4\3\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.pdb
+D:\vs-work\新建文件夹\YS48\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.dll
+D:\vs-work\新建文件夹\YS48\SerialPortsUtilsNet20\bin\Release\SerialPortsUtils.pdb
+D:\vs-work\新建文件夹\YS48\SerialPortsUtilsNet20\obj\Release\SerialPortsUtilsNet20.csprojAssemblyReference.cache
+D:\vs-work\新建文件夹\YS48\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.dll
+D:\vs-work\新建文件夹\YS48\SerialPortsUtilsNet20\obj\Release\SerialPortsUtils.pdb

@@ -1,0 +1,1421 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zeus</name>
+    </assembly>
+    <members>
+        <member name="F:IGT.UI.Client.AboutForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.AboutForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.AboutForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.ConfigHelper">
+            <summary>
+            配置帮助类
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ConfigHelper.Item(System.String)">
+            <summary>
+            获取配置项
+            </summary>
+            <param name="key">Key</param>
+            <returns>配置项</returns>
+        </member>
+        <member name="M:IGT.UI.Client.ConfigHelper.Load">
+            <summary>
+            加载配置
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.ConfigHelper.Save">
+            <summary>
+            保存配置
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ConfigHelper.Configs">
+            <summary>
+            所有配置项
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.ConnectiontActionModes.Auto">
+            <summary>
+            自动
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.ConnectiontActionModes.No">
+            <summary>
+            无
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.ConnectiontActionModes.COMAssign">
+            <summary>
+            指定COM
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.DeviceSearchForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.DeviceSearchForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.DeviceSearchForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.IPage">
+            <summary>
+            表示一个页面
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.LoadPage">
+            <summary>
+            加载此页
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.UnLoadPage">
+            <summary>
+            卸载此页
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.Change4Connect">
+            <summary>
+            从连接应用所有改变
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.ProcessRealyTimeData(IGT.Models.Feedback.RealTimeData)">
+            <summary>
+            处理实时数据
+            </summary>
+            <param name="model">数据</param>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.ProcessAutoCalbrationDetails(IGT.Models.Feedback.AutoCalibrationDetails)">
+            <summary>
+            处理自动标定信息
+            </summary>
+            <param name="model">数据</param>
+        </member>
+        <member name="M:IGT.UI.Client.IPage.ProcessDiagnosisDetails(IGT.Models.Feedback.DiagnosisDetails)">
+            <summary>
+            处理诊断信息
+            </summary>
+            <param name="model">数据</param>
+        </member>
+        <member name="P:IGT.UI.Client.IPage.IsReadly">
+            <summary>
+            是否就绪
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.IPage.Text">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.IPage.AsControl">
+            <summary>
+            转换为System.Windows.Forms.Control
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.LaunchForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.LaunchForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.LaunchForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.MainForm.ApplyLang">
+            <summary>
+            应用语言
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.MainForm.CanOpPage">
+            <summary>
+            Page是否能接受操作
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.MainForm.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.MainForm.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.MainForm.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Actions">
+            <summary>
+            页面间动作
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.Actions.Goto">
+            <summary>
+            跳转
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Pages.AutoCalibration">
+            <summary>
+            自动标定页
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.Pages.AutoCalibration.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.AutoCalibration.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.AutoCalibration.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Pages.CarSetting">
+            <summary>
+            车辆设置页
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.CarSetting.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            画分割线
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:IGT.UI.Client.Pages.CarSetting.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.CarSetting.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.CarSetting.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Pages.Diagnosis">
+            <summary>
+            诊断页
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.Pages.Diagnosis.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.Diagnosis.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否 则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.Diagnosis.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Pages.Home">
+            <summary>
+            主页
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.Pages.Home.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.Home.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.Home.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Pages.RealyTimeData">
+            <summary>
+            实时数据页
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.Pages.RealyTimeData.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.RealyTimeData.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.Pages.RealyTimeData.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Program.Main(System.String[])">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.background1">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.background2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.background3">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.GasCutout">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.IgnitionStatus">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.IgnitionStatus2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.InjectorsMeasurement">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.KeySwitchNoBorder">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.KeySwitchNoBorder2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.LEDLightGreen">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.LEDLightNone">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.LEDLightRed">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.LEDLightYellow">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_AutoCalibration">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_AutoCalibration2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Car">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Car2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Diagnostics">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Diagnostics2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Exit">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Exit2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Load">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Load2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_RealyData">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_RealyData2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Save">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Save2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Update">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.MainMenu_Update2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.OperatingTime">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.PetrolDiagnosis">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.qq">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.RealTimeDataLabel">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.RedLabelBG">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.RedLabelBG2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.SolenoidValveStatus">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.SolenoidValveStatus2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.ToggleR1">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.ToggleR2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_About">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_CloseButton">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_Fill">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_Help">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_MinButton">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_Setting">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.TopBar_Space">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.warning1">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.Welcome_cn">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.Welcome_en">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.X5">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Properties.Resources.未标题_1">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.PWDForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.PWDForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.PWDForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.RealTimeGraphForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.RealTimeGraphForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.RealTimeGraphForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.RealyDataPre">
+            <summary>
+            预加载的实时数据
+            直接截获相关事件，绕开正常装配流程以减少等待时间
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.RealyDataPre.RealData">
+            <summary>
+            实时数据
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.RealyDataPre.Begin(System.Boolean)">
+            <summary>
+            开始获取
+            </summary>
+            <param name="once">仅一次</param>
+        </member>
+        <member name="M:IGT.UI.Client.RealyDataPre.Begin">
+            <summary>
+            开始获取
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.RealyDataPre.End">
+            <summary>
+            结束获取
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.Services">
+            <summary>
+            服务类
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.Theme">
+            <summary>
+            主题服务
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.RealyDataPre">
+            <summary>
+            预加载的实时数据
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.ActionMsg">
+            <summary>
+            页面动作队列
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.Stroe">
+            <summary>
+            下位机数据
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.Device">
+            <summary>
+            下位机设备
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.Services.Lang">
+            <summary>
+            语言服务
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.Services.InitLang">
+            <summary>
+            初始化语言服务
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.SetPWDForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.SetPWDForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.SetPWDForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.SharedValueHelper">
+            <summary>
+            全局共享参数
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.SharedValueHelper.KeySwitchState">
+            <summary>
+            按键切换命令的按键的状态
+            （此命令只能设置，而不能从下位机获取，故而设置为全局共享）
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.TableCellEditDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.TableCellEditDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.TableCellEditDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.ThemeService">
+            <summary>
+            主题服务
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.ThemeService.#ctor">
+            <summary>
+            实例化
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.ThemeService.DrawBorder(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            绘制边框
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.FormBorderColor">
+            <summary>
+            窗体边框颜色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.CommonButtonBackColor">
+            <summary>
+            通用按钮背景色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.CarSettingMenuNormalForeColor">
+            <summary>
+            车辆设置菜单默认前景色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.CarSettingMenuSelectedForeColor">
+            <summary>
+            车辆设置菜单选中前景色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.CarSettingMenuNormalBackColor">
+            <summary>
+            车辆设置菜单默认背景色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.CarSettingMenuSelectedBackColor">
+            <summary>
+            车辆设置菜单选中背景色
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.ThemeService.RealTimeDataBackColor">
+            <summary>
+            实时数据背景色
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.UIHelper">
+            <summary>
+            UI帮助类
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.InvokeIfRequired``1(``0,System.Action{``0})">
+            <summary>
+            在UI线程上调用指定Action
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.BeginInvokeIfRequired``1(``0,System.Action{``0})">
+            <summary>
+            在UI线程上异步调用指定Action
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.OpenContextMenu(System.Windows.Forms.Control,System.Windows.Forms.ContextMenuStrip)">
+            <summary>
+            打开上下文菜单
+            </summary>
+            <param name="control"></param>
+            <param name="menuStrip"></param>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.OpenContextMenu(System.Windows.Forms.Control,System.Windows.Forms.ContextMenuStrip,System.Boolean)">
+            <summary>
+            打开上下文菜单
+            </summary>
+            <param name="control"></param>
+            <param name="menuStrip"></param>
+            <param name="onflowPanel"></param>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.CommonSet(System.Windows.Forms.Form)">
+            <summary>
+            为窗体设定设定通用设置
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.ShowUpECUForm(System.Windows.Forms.Form)">
+            <summary>
+            显示ECU升级窗体
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IGT.UI.Client.UIHelper.ShowUpECUForm(System.Windows.Forms.Form,System.Windows.Forms.FormClosedEventHandler)">
+            <summary>
+            显示ECU升级窗体
+            </summary>
+            <param name="form"></param>
+            <param name="onUpECUFormClosed"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IGT.UI.Client.UIModels.BetchEditModes">
+            <summary>
+            批量编辑模式
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UIModels.BetchEditModes.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UIModels.BetchEditModes.Linear">
+            <summary>
+            线性
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UIModels.BetchEditModes.Percentage">
+            <summary>
+            百分比
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.UIModels.PointD">
+            <summary>
+            double类型的Point
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.UIModels.TableData">
+            <summary>
+            表格数据
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.UIModels.TableData.ColumnIndex">
+            <summary>
+            列索引
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.UIModels.TableData.RowIndex">
+            <summary>
+            行索引
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.UIModels.TableData.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UpdateECUForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UpdateECUForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.UpdateECUForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.DiaLine.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.DiaLine.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.DiaLine.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.InjectorCorrectionForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorCorrectionForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorCorrectionForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.InjectorSetForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorSetForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorSetForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.InjectorsMeasurement.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorsMeasurement.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.InjectorsMeasurement.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.MainMenuButton.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.MainMenuButton.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.MainMenuButton.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.MyMenuStrip.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.MyMenuStrip.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.MyMenuStrip.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.OBDErrorsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.OBDErrorsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.OBDErrorsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.RealTimeDataLabel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.RealTimeDataLabel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.RealTimeDataLabel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel">
+            <summary>
+            附加设置Panel
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.AdditionalSettingsPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.AdvancedSettingPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.CarParametersSettings.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.DiagramPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.EmissionPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.MAPCalibrationSettingPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.MAPset.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.MAPset.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.MAPset.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.OBDSettingPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.OBDSettingPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.OBDSettingPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.SensorsSettingsPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel">
+            <summary>
+            燃气切换Panel
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.SwitchSettingsPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.SettingPanels.TempCorrectionSettingsPanel.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.UserControls.TogglePictureBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.TogglePictureBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:IGT.UI.Client.UserControls.TogglePictureBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.VistaButton">
+            <summary>
+            A replacement for the Windows Button Control.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.#ctor">
+            <summary>
+            Initialize the component with it's
+            default settings.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.Dispose(System.Boolean)">
+            <summary>
+            Release resources used by the control.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.VistaButton.State">
+            <summary>
+            A private enumeration that determines 
+            the mouse state in relation to the 
+            current instance of the control.
+            </summary>
+        </member>
+        <member name="T:IGT.UI.Client.VistaButton.Style">
+            <summary>
+            A public enumeration that determines whether
+            the button background is painted when the 
+            mouse is not inside the ClientArea.
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.VistaButton.Style.Default">
+            <summary>
+            Draw the button as normal
+            </summary>
+        </member>
+        <member name="F:IGT.UI.Client.VistaButton.Style.Flat">
+            <summary>
+            Only draw the background on mouse over.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ButtonText">
+            <summary>
+            The text that is displayed on the button.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ForeColor">
+            <summary>
+            The color with which the text is drawn.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.TextAlign">
+            <summary>
+            The alignment of the button text
+            that is displayed on the control.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.Image">
+            <summary>
+            The image displayed on the button that 
+            is used to help the user identify
+            it's function if the text is ambiguous.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ImageAlign">
+            <summary>
+            The alignment of the image 
+            in relation to the button.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ImageSize">
+            <summary>
+            The size of the image to be displayed on the
+            button. This property defaults to 24x24.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ButtonStyle">
+            <summary>
+            Sets whether the button background is drawn 
+            while the mouse is outside of the client area.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.CornerRadius">
+            <summary>
+            The radius for the button corners. The 
+            greater this value is, the more 'smooth' 
+            the corners are. This property should
+             not be greater than half of the 
+             controls height.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.HighlightColor">
+            <summary>
+            The colour of the highlight on the top of the button.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.ButtonColor">
+            <summary>
+            The bottom color of the button that 
+            will be drawn over the base color.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.GlowColor">
+            <summary>
+            The colour that the button glows when
+            the mouse is inside the client area.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.BackImage">
+            <summary>
+            The background image for the button, 
+            this image is drawn over the base 
+            color of the button.
+            </summary>
+        </member>
+        <member name="P:IGT.UI.Client.VistaButton.BaseColor">
+            <summary>
+            The backing color that the rest of 
+            the button is drawn. For a glassier 
+            effect set this property to Transparent.
+            </summary>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawOuterStroke(System.Drawing.Graphics)">
+            <summary>
+            Draws the outer border for the control
+            using the ButtonColor property.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawInnerStroke(System.Drawing.Graphics)">
+            <summary>
+            Draws the inner border for the control
+            using the HighlightColor property.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawBackground(System.Drawing.Graphics)">
+            <summary>
+            Draws the background for the control
+            using the background image and the 
+            BaseColor.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawHighlight(System.Drawing.Graphics)">
+            <summary>
+            Draws the Highlight over the top of the
+            control using the HightlightColor.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawGlow(System.Drawing.Graphics)">
+            <summary>
+            Draws the glow for the button when the
+            mouse is inside the client area using
+            the GlowColor property.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawText(System.Drawing.Graphics)">
+            <summary>
+            Draws the text for the button.
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+        <member name="M:IGT.UI.Client.VistaButton.DrawImage(System.Drawing.Graphics)">
+            <summary>
+            Draws the image for the button
+            </summary>
+            <param name="g">The graphics object used in the paint event.</param>
+        </member>
+    </members>
+</doc>

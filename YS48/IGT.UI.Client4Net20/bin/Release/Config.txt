@@ -1,0 +1,11 @@
+﻿CompanyUrl=http://www.easylogic.com.cn
+CompanyTel=86-571-88963995
+CompanyFax=86-571-88963532
+# Theme--------------------------
+FormBorderColor=#c53033
+CommonButtonBackColor=#c53033
+CarSettingMenuNormalBackColor=#fff
+CarSettingMenuNormalForeColor=#c53033
+CarSettingMenuSelectedBackColor=#c53033
+CarSettingMenuSelectedForeColor=#fff
+RealTimeDataBackColor=#c53033

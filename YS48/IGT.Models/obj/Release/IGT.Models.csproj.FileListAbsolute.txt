@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\4\3\IGT.Models\bin\Release\IGT.Models.dll
+C:\Users\Administrator\Desktop\4\3\IGT.Models\bin\Release\IGT.Models.pdb
+C:\Users\Administrator\Desktop\4\3\IGT.Models\obj\Release\IGT.Models.dll
+C:\Users\Administrator\Desktop\4\3\IGT.Models\obj\Release\IGT.Models.pdb
+D:\vs-work\新建文件夹\YS48\IGT.Models\bin\Release\IGT.Models.dll
+D:\vs-work\新建文件夹\YS48\IGT.Models\bin\Release\IGT.Models.pdb
+D:\vs-work\新建文件夹\YS48\IGT.Models\obj\Release\IGT.Models.csprojAssemblyReference.cache
+D:\vs-work\新建文件夹\YS48\IGT.Models\obj\Release\IGT.Models.dll
+D:\vs-work\新建文件夹\YS48\IGT.Models\obj\Release\IGT.Models.pdb

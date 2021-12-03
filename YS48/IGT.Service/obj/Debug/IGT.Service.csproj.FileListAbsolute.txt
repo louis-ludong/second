@@ -1,0 +1,90 @@
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Service.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Service.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Service.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Models.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\SerialPortsUtils.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Models.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\IGT.Models.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\SerialPortsUtils.pdb
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\bin\Debug\SerialPortsUtils.xml
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\obj\Debug\IGT.Service.dll
+C:\Users\Administrator\Desktop\4\3\A8Gas.Service\obj\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48更改\IGT.Service\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48更改\IGT.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48更改\IGT.Service\obj\Debug\IGT.Service.dll
+E:\工程\YS48\YS48更改\IGT.Service\obj\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48\IGT.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48\IGT.Service\obj\Debug\IGT.Service.dll
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48\IGT.Service\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48\IGT.Service\obj\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48-RPMsou\IGT.Service\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48-RPMsou\IGT.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48-RPMsou\IGT.Service\obj\Debug\IGT.Service.dll
+E:\工程\YS48\YS48-RPMsou\IGT.Service\obj\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\obj\Debug\IGT.Service.dll
+E:\工程\YS48\YS48 - 副本删图标\IGT.Service\obj\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Service.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Service.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Service.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Models.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\LinqBridge.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\SerialPortsUtils.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Models.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\IGT.Models.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\bin\Debug\SerialPortsUtils.xml
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\obj\Debug\IGT.Service.csprojResolveAssemblyReference.cache
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\obj\Debug\IGT.Service.dll
+E:\工程\YS48\YS48备份201607051（）\IGT.Service\obj\Debug\IGT.Service.pdb
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Service.xml
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Service.dll
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Service.pdb
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Models.dll
+D:\源码\YS48\IGT.Service\bin\Debug\SerialPortsUtils.dll
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Models.pdb
+D:\源码\YS48\IGT.Service\bin\Debug\IGT.Models.xml
+D:\源码\YS48\IGT.Service\bin\Debug\SerialPortsUtils.pdb
+D:\源码\YS48\IGT.Service\bin\Debug\SerialPortsUtils.xml
+D:\源码\YS48\IGT.Service\obj\Debug\IGT.Service.csprojAssemblyReference.cache
+D:\源码\YS48\IGT.Service\obj\Debug\IGT.Service.csproj.CopyComplete
+D:\源码\YS48\IGT.Service\obj\Debug\IGT.Service.dll
+D:\源码\YS48\IGT.Service\obj\Debug\IGT.Service.pdb

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A926DA03-743C-4172-8656-99029F9549D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IGT.Service</RootNamespace>
+    <AssemblyName>IGT.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\IGT.Service.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bit32Warper.cs" />
+    <Compile Include="CancelBit.cs" />
+    <Compile Include="NotityArray.cs" />
+    <Compile Include="PLC\CustomTask4Connect.cs" />
+    <Compile Include="PLC\DiagnosisDetailsTask.cs" />
+    <Compile Include="PLC\Enums.cs" />
+    <Compile Include="PLC\Events.cs" />
+    <Compile Include="PLC\GetAdditionalInfoTask.cs" />
+    <Compile Include="PLC\OnTimeJobs.cs" />
+    <Compile Include="PLC\OnTimeSchudle.cs" />
+    <Compile Include="PLC\UpData.cs" />
+    <Compile Include="SSer.cs" />
+    <Compile Include="Storage\AdditionalSettings.cs" />
+    <Compile Include="Storage\ECUCorrectionParams.cs" />
+    <Compile Include="Storage\InjectorCorrection.cs" />
+    <Compile Include="IOUtils.cs" />
+    <Compile Include="PLC\ICustomTask.cs" />
+    <Compile Include="PLC\PacketUtils.cs" />
+    <Compile Include="PLC\ReadFilter.cs" />
+    <Compile Include="PLC\DTOUitils.cs" />
+    <Compile Include="PLC\InstructionSet.cs" />
+    <Compile Include="Language\IMultLang.cs" />
+    <Compile Include="Language\LangService.cs" />
+    <Compile Include="PLC\Device.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PLC\ValueConvert.cs" />
+    <Compile Include="Storage\ECUSetting.cs" />
+    <Compile Include="Storage\IStorageModel.cs" />
+    <Compile Include="Storage\MAPCalibrationParams.cs" />
+    <Compile Include="Storage\PLCData.cs" />
+    <Compile Include="Storage\SettingModelTasks.cs" />
+    <Compile Include="Storage\CorrectionSetting.cs" />
+    <Compile Include="Tulpe.cs" />
+    <Compile Include="Unitls.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IGT.Models\IGT.Models.csproj">
+      <Project>{c9c8555c-a159-47b8-891e-96f44cc5c4d2}</Project>
+      <Name>IGT.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SerialPortsUtilsNet20\SerialPortsUtilsNet20.csproj">
+      <Project>{549e1946-8e7c-462a-bf3b-8d479f9ad03b}</Project>
+      <Name>SerialPortsUtilsNet20</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

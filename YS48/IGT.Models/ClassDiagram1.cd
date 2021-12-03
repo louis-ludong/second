@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IGT.Models.Feedback.AutoCalibrationDetails">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Feedback\AutoCalibrationDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Feedback.DeviceStaticData">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEIAEAAAAAAIAAAAAEBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feedback\DeviceStaticData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Feedback.DiagnosisDetails">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAABIAAAAIAAAAAAAIAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Feedback\DiagnosisDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Feedback.ECUWorkTime">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Feedback\ECUWorkTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Feedback.RealTimeData">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAgAIAQMAAAAACAAgAAAAwABAAAAAAAAABAAEAA=</HashCode>
+      <FileName>Feedback\RealTimeData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.BaseSetting">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACCAAAAAAAAAAAAAAAASAAAAAAAAAAAACA=</HashCode>
+      <FileName>Settings\BaseSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.ECUCorrectionParams">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\ECUCorrectionParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.ECUSetting">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BoaggAKEADlAEEAARCwAClOICAEABEAEEGQhAIQIFAA=</HashCode>
+      <FileName>Settings\ECUSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.InjectorCorrectionSetting">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Settings\InjectorCorrectionSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.MAPCalibrationParams">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAIAAgAAACACAAAAAAAIAAAAgAAAAAAAA=</HashCode>
+      <FileName>Settings\MAPCalibrationParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGT.Models.Settings.TempCorrectionSet">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAIAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Settings\TempCorrectionSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="IGT.Models.Enums.AutoCalibrationCMD" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAA=</HashCode>
+      <FileName>Enums\AutoCalibrationCMD.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.AutoCalibrationResult" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAAAAABEAAAAAAAAAAAAAIAAAAAEAY=</HashCode>
+      <FileName>Enums\AutoCalibrationResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.AutoCalibrationState" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAQAAAEQAAAAAEAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Enums\AutoCalibrationState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.CoilNums" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\CoilNums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.FuelTypes" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\FuelTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.InjectionModes" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAA=</HashCode>
+      <FileName>Enums\InjectionModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.InjectorTypes" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAgAAAAAAAgAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Enums\InjectorTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.LevelIndicatorSensTypes" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAEAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAUgAQA=</HashCode>
+      <FileName>Enums\LevelIndicatorSensTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.PRMSources" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAEAAAAAAAAAgAAAAAACAAAAA=</HashCode>
+      <FileName>Enums\PRMSources.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.SwitchModes" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Enums\SwitchModes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IGT.Models.Enums.TempSensTypes" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABgEAQA=</HashCode>
+      <FileName>Enums\TempSensTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

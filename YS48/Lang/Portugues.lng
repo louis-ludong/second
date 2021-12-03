@@ -1,0 +1,403 @@
+﻿FileVersion=1.0
+Language=Portugues
+LanguageID=2070
+Font=Arial
+//*****************************************
+//Comum
+//*****************************************
+1=Dispositivo não encontrado
+2=Pesquisando
+3=Não há conexão com a ECU, por favor, conectar ou desconectar.
+4=Arquivo incorreto
+5=breakdown to firmware
+
+//*****************************************
+//Menu
+//*****************************************
+101=Ajuda
+102=Sobre
+103=Conexão
+104=Auto
+105=Desconectado
+106=Inf.
+107=Idiomas
+108=Reset
+109=Definir senha
+110=Reset Completo
+111=Aquisições
+112=Salvar amostras
+113=Ler amostras
+114=Display grafico
+
+//*****************************************
+//Primeira Tela
+//*****************************************
+201=IGT Diagnóstico Programa
+202=Configuração Veículos
+203=Salvar Configuração
+204=Display
+205=Ler Configuração
+206=Diagnóstico
+207=Reprogramação ECU
+208=AutoCalibração
+209=Sair
+210=Conectado
+211=Não Conectado
+212=Versão HardWare 
+213=Versão Firmware 
+
+//*****************************************
+//Informação Veiculo
+//*****************************************
+301=Configuração do Veículo
+302=Ajuste Padrão
+303=Ajuste Avançado
+304=Sensores
+306=Compensação
+308=MaPa
+309=Avançado
+310=Ajustes
+311=T.I.Gasol
+312=T.I.Gas
+313=Gas Press
+314=MAP Press
+315=Temp.Red
+316=Temp.Gas
+317=Nivel Gas
+318=RPM
+319=RPM Obtido
+320=Injetores
+321=Bobinas
+322=Sensor
+323=Desconhecido
+324=Lambda
+325=Aporte
+
+//Motor
+302_1=Tipo de Combustivel
+302_2=Cilindros
+302_3=Tipo ignição
+302_4=Mono Bobina
+302_5=Bi-Bobina
+302_6=Bobinas
+302_8=Injeção
+302_9=Sequencial
+302_10=SemiSequencial
+302_11=FullGroup
+302_12=RPM Procura
+302_13=Sensor
+302_14=Injetor
+302_15=Bobina
+302_16=Auto
+302_17=RPM Voltage
+302_18=Pulso Injetor positivo
+302_19=Número de bobina não pode ser maior do que o número de cilindros.
+302_20=Motor
+302_21=Standard
+302_22=Turbo
+
+//Comutação
+303_1=Combustivel
+303_2=GLP
+303_3=GNV
+303_4=Temp. Mudança (℃)
+303_5=RPM Mudança
+303_6=Mudança
+303_7=Sobreposição(s)
+303_8=Pressão Trab.(Bar)
+303_9=Minima Pressão(Bar)
+303_10=Acelaração
+303_11=Desaceleração
+303_12=Atraso Mudança(ms)
+303_13=Erro de Pressão(ms)
+303_14=Min. gas temp.(℃)
+303_15=Min. gas RPM
+303_16=Motor quente
+303_17=Comutação gás
+303_18=Comutação Gasolina
+303_19=Tipo de Injetor
+303_20=Estrategia Aceleração
+303_21=RPM
+303_22=Tempo Injeção
+303_23=Contribuição Gasolina
+303_24=Gás
+303_25=Por RPM
+303_26=Contribuição
+303_27=Personalizado
+303_28=Injetor
+303_29=Tempo Minimo
+303_30=Tempo correção
+303_31=Tempo morto
+303_32=Empty scale
+303_33=Tempo maximo
+303_34=Param. Injetores
+303_35=Correção injetores
+303_36={0} Cilindros
+
+//Sensores
+304_1=Sensor Temp. Red.
+304_2=Sensor Temp. Gas
+304_3=Sensor de Nivel
+304_4=Tensão Nivel(V)
+304_5=Tipo de Injetor
+304_6=Disabilidar
+304_7=Cliente
+304_8=Não conectado
+304_9=Tensão(0V pobre)
+304_10=Tensão(0V rico)
+304_11=UEGO
+304_12=Lambda{0} type
+304_13=Temp sensor
+304_14=Lambda sensor
+304_15=Nivel de gás
+304_16=10k ohm
+304_17=8k5 ohm
+304_18=5k ohm
+304_19=4k7 ohm
+304_20=2k2 ohm
+304_21=2k ohm
+304_22=Easy
+304_23=Lovato
+304_24=0-90ohm
+304_25=0-110ohm
+304_26=100-10Kohm
+304_27=0-90ohm_2
+304_28=90-0ohm
+304_29=110-0ohm
+304_30=10K-100ohm
+
+//MAP
+305_1=OK
+305_2=Cancelar
+305_3=Edição em lote por valor.
+305_4=Edição em lote por porcentagem.
+305_5=Edição em lote por escala linear.
+
+//Compensação
+306_1=Temp.(℃)
+306_2=Prec.(%)
+306_3=Acima
+306_4=Correção Temp. Red.
+306_5=Correção Temp. Gas
+306_6=Correção Pres. Red.
+306_7=Gas
+306_8=Atenção:
+306_9=                      os corretores de temperatura e de pressão modificam a regulagem feita no mapa do veículo,verificar com os consultores técnicos da empresa se ha necessidade de alterar os valores padrões de fábrica.
+
+//Grafico
+308_1=Multiplicador
+308_2=Tempo injeção[ms]
+308_3=Presão coletor[kpa]
+308_4=M
+308_5=Gasolina
+308_6=Gás
+308_7=RPM[rpm]
+308_8=
+308_10=Mapa
+308_11=Clear Petrol curve
+308_12=Clear Gas curve
+308_13=Corretores
+
+//Avançado
+309_1=OBD
+309_2=Adaptação
+309_3=OBD adaptação
+309_4=Faixa de adaptação
+309_5=AutoStop adaptação
+309_6=Assist. adaptação
+309_7=OBD reverse assist
+309_8=Faixa adapt OBD 
+309_9=Correção Banco 1 OBD 
+309_10=Correção Banco 2 OBD 
+309_11=Auto adaptação
+309_12=Mazda empobrecer
+309_13=Enriquecimento aceleração
+309_14=Corte
+309_15=Sensibilidade
+309_16=Extra injeção
+309_17=Parametros Extra injeção.
+309_18=Apagar codigos de defeito
+309_19=Não
+309_20=Escolher
+309_21=Todos
+309_22= OBS.:A sensibilidade de injeção e injeção extra, são reserentes à injeção de combustível líquido,podendo causar falhas ou "trancos" no veículo.
+//Simulação
+310_1=Lambda
+310_2=Nivel superior lambda
+310_3=Nivel inferior lambda
+310_4=Tempo de Simulação 
+310_5=Number of jet learnning
+
+//Adicional
+325_1=Partidas de emergência
+325_2=Admitidos
+325_3=Realizada
+325_4=Limpar
+325_5=Manter Lembre
+325_6=Tipo
+325_7=Próximo
+325_8=Manter desde a última vez
+325_9=Set
+325_10=Off
+325_11=som
+325_12=Proibir
+
+//*****************************************
+//Display
+//*****************************************
+401=Display
+402=T.I.Gasol
+403=T.I.Gas
+404=Press Red.
+405=MAP Press
+406=T.Red.
+407=T.Gas.
+408=Diâmetro injetores
+409=Muito grande
+410=Muito pequeno
+411=Correto
+412=Lambda {0}
+413=Desativar
+414=Estado de Adaptação
+415=Estado OBD
+416=correção Curta
+417=Offset
+418=Estado Conexão
+419=Init
+420=Conexão
+421=Conectado
+422=Desconectar
+423=Falha Módulo
+424=Estado Falha
+425=Falha
+426=Normal
+427=Bank1 Correção Curta
+428=Bank1 Correção Longa
+429=Bank2 Correção Curta
+430=Bank2 Correção Longa
+431=OBS.:
+
+//*****************************************
+//Diagnóstico
+//*****************************************
+501=Diagnóstico
+502=Diagnóstico Sinal gasolina
+503=Stop Injetores gas
+504=Tempo de Trabalho
+505=OK-Leitura dos sinais injetores corretamente
+506=X-Sinal Injetores não lê
+507=Redefinir Erros
+508=Diagnóstico
+509=Estado
+510=Carregando
+511=Normal
+512=Falha
+513=Falha temperatura da água
+514=Falha Temp Gás
+515=Pressão de gás baixa
+516=Pressão do gás alta
+517=Não há sinal injetores
+518=Dados errados
+519=Todos os injetores abertos
+520=Tensão Baixa
+521=Banco {0} Injetores gas {1}
+522=Autodiagnóst.
+523=Falha OBD
+524=Stored
+
+//OBD Failure
+523_1=Falha OBD
+523_2=Armazenado
+523_3=Potencial
+523_4=Código
+523_5=Limpar
+523_6=Atualizar
+
+//*****************************************
+//AutoCalibração
+//*****************************************
+601=AutoCalibração
+602=T.I.Gasol
+603=T.I.Gas
+604=Gas Press
+605=MAP Press
+606=T.Red.
+607=T.Gas.
+608=Diametro Injetores
+609=Parar
+610=calibração Automática
+611=Muito grande
+612=Muito pequeno
+613=correto
+614=Todos os injetores juntos
+615=INICIO - Iniciar calibração
+616=Ligar Motor
+617=Aguardar Temp. redutor acima de 50℃
+618=Calibração em andamento, Manter o motor em marcha lenta
+619=Calibração em andamento, Tansferindo parametros
+620=Não MAPSensor, Falha na calibração
+621=Pressão muito alta, Falha na calibração
+622=Pressão muito baixa, Falha na calibração
+623=RPM alto do motor, Falha na calibração
+624=RPM alto, o motor deve funcionar em marcha lenta
+625=Erro sinal de gasolina, Falha na calibração
+626=Erro desconhecido, Falha na calibração
+627=Calibração concluida, injetores muito pequenos
+628=Calibração concluida, injetores pequenos
+629=Calibração concluida, injetores grande
+630=Calibração concluida, injetores muito grande
+631=Calibração concluida, Ajusta mapa multiplicar na estrada
+632=Erro na calibração
+633=Lambda{0}
+
+//*****************************************
+//Sobre
+//*****************************************
+701=Sobre
+702=null
+703=null
+
+//*****************************************
+//Senha
+//*****************************************
+801=Entrar
+802=Cancelar
+803=Definir senha
+804=Digitar senha
+805=Confirmar senha
+806=Senha desacordo
+807=Erro de senha
+808=A senha deve ser de 4
+
+//*****************************************
+//Grafico
+//*****************************************
+901=Grafico
+902=Inj.Gasol.
+903=Inj Gas.
+904=Press.Gás
+905=Press.MAP 
+906=Temp.Red
+907=Temp.Gas
+908=Nível De gás
+909=RPM
+910=Aquisições
+911=Comece a poupar
+912=Fim economia
+913=Apresentar gráfico
+
+//*****************************************
+//ECU Atualização
+//*****************************************
+1001=Atualização ECU
+1002=Atualização
+1003=Sair
+1004=Firmware (Arquivo)
+1005=Firmware (Dispositivo)
+1006=Hardware
+1007=Entre Bootloader
+1008=Apagar EEPROM
+1009=Apagar FLASH
+1010=Escrita de Dados
+1011=Concluído
+1012=Falha

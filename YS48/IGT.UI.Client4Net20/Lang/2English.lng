@@ -1,0 +1,501 @@
+﻿FileVersion=1.0
+Language=English
+LanguageID=1033
+Font=Arial
+//*****************************************
+//Common
+//*****************************************
+1=Device Not Found
+2=Searching
+3=There is no connection to the device, please connect or disconnect.
+4=Wrong File
+5=breakdown to firmware
+
+//*****************************************
+//Menu
+//*****************************************
+101=Help
+102=About
+103=Connection
+104=Auto
+105=DisConnect
+106=Setting
+107=Language
+108=Reset
+109=Set Password
+110=Reset Completed
+111=Acquisitions
+112=Start saving
+113=End saving
+114=Display graph
+
+//*****************************************
+//First Screen
+//*****************************************
+201=IGT Diagnostics Program
+202=     Vehicle Configuration
+203=         Save Configuration
+204=   Display
+205=          Load Configuration
+206=   Diagnosis
+207=           ECU Rep rogramming
+208=    AutoCalibration
+209=           Exit
+210=Connected
+211=Not Connected
+212=HardWare Version
+213=Firmware Version
+
+//*****************************************
+//CarSetting
+//*****************************************
+301=Vehicle Configuration
+302=Default Setting
+303=Advanced Setting
+304=Sensors 
+306=Calibration
+308=Diagram
+309=Advanced
+310=Ajuste
+311=Tinj.Petrol
+312=Tinj.Gas
+313=Gas Press
+314=MAP Press
+315=Temp.Red
+316=Temp.Gas
+317=Gas Level
+318=RPM
+319=RPM Source
+320=One coil
+321=Two Coils
+322=RPM sensor
+323=Unknown
+324=Lambda
+325=Additional
+
+
+328=OBD Setting
+
+//Car Para
+302_1=FuelType
+302_2=cylinders
+302_3=Ignition Type
+302_4=One coil
+302_5=Two coils
+302_6= colis
+302_8=Injection
+302_9=Sequential
+302_10=MJ sequential
+302_11=Full Group
+302_12=RPM Source
+302_13=One coil 
+302_14=Two coils
+302_15=RPM sensor
+302_16= RPM sensor 2
+302_17=RPM Voltage
+302_18=Injector Positive Driver
+302_19=Number of coil cannot be greater than the number of cylinders
+302_20=Engine
+302_21=Standard
+302_22=Turbo
+302_23=Standard
+302_24=Weak
+302_25=NO. of cylinders
+
+//Switch settings
+303_1=Fuel Type
+303_2=LPG
+303_3=CNG
+303_4=Switch temp.
+303_5=Switch RPM
+303_6=Switch mode
+303_7=OverlapTimes(s)
+303_8=Operational Press(Bar)
+303_9=Minimum Press(Bar)
+303_10=InAcceleration
+303_11=InDecelertion
+303_12=Delay time(ms)
+303_13=Press error time(S)
+303_14=Mini gas temp.(℃)
+303_15=Min. gas RPM
+303_16=Start on gas with hot engine
+303_17=Switch gas
+303_18=Switch petrol
+303_19=Injector type
+303_20=Running gas strategy
+303_21=RPM
+303_22=Tiji time
+303_23=Oil compensation
+303_24=Kee gas
+303_25=Switch Oil
+303_26=Oil compensation
+303_27=Custom
+303_28=Injector
+303_29=Min open time
+303_30=Correction time
+303_31=Open keep time
+303_32=Empty scale
+303_33=Max open time
+303_34=Injector Setting
+303_35=InjectorCorrection
+303_36={0} Cylinder
+303_37=Operation at minimum
+303_38=Gas
+303_39=Petrol
+303_40=From
+303_41=To
+303_42=Return to petrol
+303_43=Inject positive drive
+303_44=Cold start
+303_45=Advanced options
+303_46=Start/Stop
+303_47=Anticipate the injection sequence
+303_48=Incompatible with petrol strategy when running on gas
+303_49=Reminder
+303_50=This firmware version doesn't have this function, please update the firmware
+303_51=Cut-off petrol switch-back transition
+303_52=Injections for petrol switch-back
+//Sensors settings
+304_1=Reducer temp. sens.
+304_2=Gas temp. sens.
+304_3=Level indicator sens
+304_4=Gas level(V)
+304_5=Injector Type
+304_6=Disable
+304_7=Customer
+304_8=Not connected
+304_9=Voltage(0V means lean)
+304_10=Voltage(0V means rich)
+304_11=UEGO
+304_12=Lambda type
+304_13=Temp sensor
+304_14=Lambda sensor
+304_15=Level Indicator sensor
+304_16=10k ohm
+304_17=8k5 ohm
+304_18=5k ohm
+304_19=4k7 ohm
+304_20=2k2 ohm
+304_21=2k ohm
+304_22=IGT
+304_23=Lovato
+304_24=0-90ohm
+304_25=0-110ohm
+304_26=100-10Kohm
+304_27=0-90ohm_2
+304_28=90-0ohm
+304_29=110-0ohm
+304_30=10K-100ohm
+304_50=Oxygen Sensor 1
+304_51=Oxygen Sensor 2
+304_52=Not std
+304_53=Not std inverted
+304_54=Pre
+304_55=Post
+304_56=0-1V
+304_57=0-5V
+304_58=5-0V
+304_59=0.8-1.6V
+304_60=Number of banks
+
+
+//MAP
+305_1=OK
+305_2=Cancel
+305_3=Batch editing by value
+305_4=Batch editing by percentage
+305_5=Batch editing by liner scale
+
+305_13=Value
+305_14=Percentage
+305_15=Liner scale
+
+
+
+//Calibration
+306_1=Temp.(℃)
+306_2=Prec.(%)
+306_3=Over
+306_4=Gas. Temp. Correction
+306_5=Red. Temp. Correction
+306_6=Gas. Press. Correction
+306_7=Gas
+306_8=Attention:
+306_9=Attention:The temperature brokers and pressure modify the adjustment made in the map of the vehicle, check with the company if there is need to change the factory default values.
+
+//Diagram
+308_1=Multiplier
+308_2=Injection time[ms]
+308_3=Collector pressure[kpa]
+308_4=M
+308_5=P
+308_6=G
+308_7=RPM[rpm]
+308_8=Chart
+308_10=MAP
+308_11=Clear Petrol curve
+308_12=Clear Gas curve
+308_13=Correction
+
+//Advanced
+309_1=OBD
+309_2=Adaptive
+309_3=OBD adaptive
+309_4=Adaptive range
+309_5=AutoStop adaptive
+309_6=Adaptive assist
+309_7=OBD reverse assist
+309_8=OBD adapt range
+309_9=OBD bank1 correct
+309_10=OBD bank2 correct
+309_11=Auto adaptive
+309_12=Mazda Weaken
+309_13=Acceleration enrichment
+309_14=Extra-injetion Cutting
+309_15=Extrainj. Sensitivity
+309_16=Ident. time
+309_17=Extra-Injection Param.
+309_18=Auto clear failure code
+309_19=Not
+309_20=Choice
+309_21=Full
+309_22= Reminder: Extra-injetion Cutting and Extrainj. Sensitivity is related with fuel. Inappropriate setting may cause engine shutdown or some other erros.
+309_23=Reminder
+309_24=Do you really want to reset the ECU map?
+309_25=Are you sure to recovery to default setting?
+309_26=Map reference
+309_27=REVS.columns(RPM)
+309_28=Time lines(ms)
+309_29=REVS.refs.incorrect！
+309_30=The injection time refernces are not correct！
+309_31=Warning
+309_32=Cancel
+309_33=Confirm
+
+//Emission
+310_1=Lambda
+310_2=Simulat hight level
+310_3=Simulat low level
+310_4=Simulation delay
+310_5=Number of jet learnning
+
+//Additional
+325_1=EmergencyStats
+325_2=Allowed
+325_3=Performed
+325_4=Clear
+325_5=MaintainRemind
+325_6=Type
+325_7=Next
+325_8=Maintain since the last time
+325_9=Set
+325_10=Off
+325_11=Sound
+325_12=Forbid
+
+//OBDSetting
+326_1=OBD connection type
+326_2=Auto
+326_3=1: ISO9141-2
+326_4=2: KWP-2000 Fast Init
+326_5=3: KWP-2000 Slow Init
+326_6=6: CAN Standard 250 kbps
+326_7=7: CAN Extended 250 kbps
+326_8=8: CAN Standard 500 kbps
+326_9=9: CAN Extended 500 kbps
+326_10=None
+326_11=Adaptivity
+326_12=Type of petrol trimmers
+326_13=Standard
+326_14=Lean carburation with positive trimmers
+326_15=Inverted
+326_16=Lean carburation with negative trimmers
+326_17=Enables complete reset of errors
+326_18=Enables the selective reset of errors
+
+
+//*****************************************
+//Display
+//*****************************************
+401=Display
+402=Petrol Time
+403=Tinj.Gas
+404=Tinj.Press
+405=MAP Press
+406=T.Red.
+407=T.Gas.
+408=Injector's measurement
+409=too big
+410=too small
+411=correct
+412=Lambda{0}
+413=Disable
+414=Adaptation state
+415=OBD state
+416=Short correction
+417=Offset
+418=Connection State
+419=Init
+420=Connecting
+421=Connected
+422=DisConnect
+423=Module Failure
+424=Failure state
+425=Failure
+426=Normal
+427=Fast trim
+428=Slow trim
+429=Bank2 short correction
+430=Bank2 long  correction
+431=OBS.:
+432=Lambda post
+433=Corr. gas
+
+//*****************************************
+//Diagnosis
+//*****************************************
+501=Diagnosis
+502=Petrol injectors signal diagnosis
+503=Gas injectors cut out
+504=Operating times
+505=OK - Injector signal properly read
+506=X -  Injector signal not read
+507=Reset Errors
+508=Error code
+509=Diagnosis
+510=Loading
+511=Normal
+512=Failure
+513=Gas injection
+514=Petrol injection
+515=Unknow
+516= Solenoid valve
+517=Gas pressure
+518=MAP
+519=Gas temperature
+520= Reducer temperature
+521=Bank{0} gas jet{1}
+522=Auto diagnosis
+523=OBD Failure
+524=State
+
+//OBD Failure
+523_1=OBD Failure
+523_2=Stored 
+523_3=Potential
+523_4=Code
+523_5=Clear
+523_6=Refresh
+
+533=Change over switch status
+534=Level sensor
+535=Not used 
+536=Gas temperature is too high
+537=Oxygen sensor fault
+538=Gas pressure is too high
+539=Sensor power fault
+540=The fault light
+
+543=Reducer temperature is too high
+
+
+
+//*****************************************
+//AutoCalibration
+//*****************************************
+601=AutoCalibration
+602=Tiji.Petrol
+603=Tiji.Gas
+604=Gas Press
+605=MAP Press
+606=T.Red.
+607=T.Gas.
+608=Injector's measurement
+609=Stop
+610=Start
+611=too big
+612=too small
+613=correct
+614=All injectors together
+615=START - calibration begins
+616=Start engine
+617=Accelerate to 2500-3100rpm
+618=Calibration in progress, Engine should work with idle RPM
+619=It is calibrating, hold accelerating stable
+620=No MAPSensor, Calibration fail
+621=Pressure is too low, Calibration fail
+622=Pressure is too high, Calibration fail
+623=RPM value is too low, Calibration fail
+624=Too high engine RPM, Engine should work with idle RPM
+625=Pertol signal Error, Calibration fail
+626=Unknow error, Calibration fail
+627=Calibration finished, Injector nozzles too small
+628=Calibration finished, Injector nozzles small
+629=Calibration finished, Injector nozzles big
+630=Calibration finished, Injector nozzles too big
+631=Calibration finished, Adjust the multiplier map on the road
+632=Calibration Error
+633=Lambda{0}
+640=
+641=
+642=Start to Calibrate
+643=Reducer temperature is to low，Calibration Error
+644=Gas temperature is to low，Calibration Error
+645=Thert is not ignition key signal，Calibration Error
+646=MAPSenso Error，Calibration Error
+
+//*****************************************
+//About
+//*****************************************
+701=About
+702=www.igtmotors.com.br
+703= +55(21)2573-9002|3868-3564
+704=Tel：
+705=Web：
+706=Ver：
+707=2.0.8
+
+//*****************************************
+//Password
+//*****************************************
+801=Enter
+802=Cancel
+803=Set Password
+804=Enter Password
+805=Confirm Password
+806=Password Disaccord
+807=Password Error
+808=Password length must be 4
+
+//*****************************************
+//Graph
+//*****************************************
+901=Graph
+902=Petrol inj.
+903=Gas inj.
+904=Gas Press
+905=MAP Press
+906=Temp.Red
+907=Temp.Gas
+908=Gas Level
+909=RPM
+910=Acquisitions
+911=Start saving
+912=End saving
+913=Display graph
+
+//*****************************************
+//ECU Upgrade
+//*****************************************
+1001=ECU Upgrade
+1002=Upgrade
+1003=Exit
+1004=Firmware(File)
+1005=Firmware(Device)
+1006=Hardware
+1007=Enter Bootloader
+1008=Erasing EEPROM
+1009=Erasing FLASH
+1010=Writing Data
+1011=Completed
+1012=Failure

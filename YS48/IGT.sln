@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{CF73665E-09D4-4F77-91BF-6FFC232289D5}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\ComponentFactory.Krypton.Toolkit.dll = Lib\ComponentFactory.Krypton.Toolkit.dll
+		Lib\DasNetGauge.dll = Lib\DasNetGauge.dll
+		Lib\DasNetTemperature.dll = Lib\DasNetTemperature.dll
+		Lib\TeeChart.dll = Lib\TeeChart.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortsUtilsNet20", "SerialPortsUtilsNet20\SerialPortsUtilsNet20.csproj", "{549E1946-8E7C-462A-BF3B-8D479F9AD03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGT.Models", "IGT.Models\IGT.Models.csproj", "{C9C8555C-A159-47B8-891E-96F44CC5C4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGT.Service", "IGT.Service\IGT.Service.csproj", "{A926DA03-743C-4172-8656-99029F9549D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGT.UI.Client4Net20", "IGT.UI.Client4Net20\IGT.UI.Client4Net20.csproj", "{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{549E1946-8E7C-462A-BF3B-8D479F9AD03B}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C8555C-A159-47B8-891E-96F44CC5C4D2}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{A926DA03-743C-4172-8656-99029F9549D1}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BACF53-9A1B-45CA-88A5-89078D8C4A1B}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
